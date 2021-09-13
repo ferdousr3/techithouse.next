@@ -12,12 +12,12 @@ const Layout = ({ title, description, children }) => {
       h1: {
         fontSize: '1.6rem',
         fontWeight: 400,
-        margin: '1rem 0',
+        margin: '0px 0px',
       },
       h2: {
         fontSize: '1.4rem',
         fontWeight: 400,
-        margin: '1rem 0',
+        margin: '0px 0px',
       },
       body1: {
         fontWeight: 'normal',
@@ -31,8 +31,13 @@ const Layout = ({ title, description, children }) => {
       secondary: {
         main: '#0AC0AB',
       },
+      error: {
+        main: '#030C26',
+      },
+      info: {
+        main: '#696687',
+      },
     },
-    
   });
 
 

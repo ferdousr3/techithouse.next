@@ -1,5 +1,12 @@
 import { makeStyles } from "@material-ui/core";
 
+import themes from "./themes";
+
+
+// const rubik = 
+// const error = '#030D28';
+// const info = '#696687';
+
 const useStyles = makeStyles((theme) => ({
   main: {
     minHeight: '80vh',
@@ -121,15 +128,60 @@ const useStyles = makeStyles((theme) => ({
   },
   // services
   services: {
-    padding: '30px 0px',
+    padding: '5rem 0px',
   },
   servicesLeft: {
     backgroundColor: '#FFFFFF',
     boxShadow: '0px 0px 62px 0px rgba(9.999999999999991, 50.99999999999997, 80, 0.1)',
     transition: 'background 0.3s, border 0.3s, border- radius 0.3s, box - shadow 0.3s',
     margin: '0px 15px 30px 15px',
-    padding: '25px 30px 30px 39px',
-    borderRadius:' 10px 10px 10px 10px',
+    padding: '25px 30px 25px 39px',
+    borderRadius: ' 10px 10px 10px 10px',
+  },
+  servicesLeftImage: {
+    padding: '0px 0px',
+  },
+  servicesLeftTitle: {
+    padding: '0px 0px',
+    margin: '3px 0px',
+    color: themes.error,
+    fontFamily: themes.source,
+    fontWeight: 800,
+  },
+  servicesLeftDetails: {
+    fontFamily: themes.rubik,
+    color: "#252B31",
+    fontWeight: 400,
+  },
+  servicesRight:{
+    [ theme.breakpoints.up("sm") ]: {
+      paddingLeft: '35px',
+    },
+  },
+  servicesRt: {
+    fontFamily: themes.source,
+    color: themes.info,
+    fontSize: '1rem',
+    textTransform: 'uppercase',
+    fontWeight: 600,
+    letterSpacing:'.2rem',
+  },
+  servicesRst: {
+    fontFamily: themes.source,
+    color: themes.error,
+    lineHeight: '2.9rem',
+    fontSize: '2.7rem',
+    fontWeight: 700,
+    margin: '0px 0px',
+    [ theme.breakpoints.up("sm") ]: {
+      paddingRight: '150px',
+    },
+  },
+  servicesRpt: {
+    fontFamily: themes.rubik,
+    color: themes.info,
+    fontSize: '1rem',
+    fontWeight: 400,
   },
 }));
 export default useStyles;

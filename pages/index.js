@@ -70,21 +70,45 @@ const home = () => {
           <Grid item xs={12}>
             <Container>
               <Grid container spacing={2}  >
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.heroFirstPart} >
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} >
                   <Grid container>
                     {allData.services.map(item => (
                       <Grid key={item.id} item xs={12} sm={6} md={6} lg={6} xl={6}>
                         <div className={classes.servicesLeft}>
-                          <Image  className={classes.servicesLeftImage} src={item.image} alt={item.title} width={80} height={80} />
-                          <h1 className={classes.servicesLeftTitle} > {item.title} </h1>
-                          <p className={classes.servicesLeftDetails} > {item.details} </p>
+                          <Image className={classes.servicesLeftImage} src={item.image} alt={item.title} width={80} height={80} />
+                          <h1 className={classes.servicesLeftTitle} >
+                            {item.title}
+                          </h1>
+                          <p className={classes.servicesLeftDetails} >
+                            {item.details}
+                          </p>
                         </div>
                       </Grid>
                     ))}
                   </Grid>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.heroRight} >
-                  
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} >
+                  <div className={classes.servicesRight}>
+                    <h1 className={classes.servicesRt}>
+                      {allData.serviceRt}
+                    </h1>
+                    <h2 className={classes.servicesRst}>
+                      {allData.serviceRst}
+                    </h2>
+                    <h3 className={classes.servicesRpt}>
+                      {allData.serviceRpt}
+                    </h3>
+                    <div className="div">
+                      <Grid container>
+                        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+                          <p>hello</p>
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+                          <p>hello</p>
+                        </Grid>
+                      </Grid>
+                    </div>
+                  </div>
                 </Grid>
               </Grid>
             </Container>
