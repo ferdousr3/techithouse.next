@@ -25,7 +25,7 @@ const home = () => {
           <Grid item xs={12}>
             <Container>
               <Grid container spacing={2}  >
-                <Grid item xs={12} sm={12} md={5} lg={5} xl={5} className={classes.heroFirstPart} >
+                <Grid item xs={12} sm={12} md={6} lg={5} xl={5} className={classes.heroFirstPart} >
                   <div className={classes.heroMain}>
                     <h1 className={classes.heroTitle} >
                       One-stop service <br /> for Design and Development
@@ -51,7 +51,7 @@ const home = () => {
                     </div>
                   </div>
                 </Grid>
-                <Grid item xs={12} sm={12} md={7} lg={7} xl={7} className={classes.heroRight} >
+                <Grid item xs={12} sm={12} md={6} lg={7} xl={7} className={classes.heroRight} >
                   <div className={classes.heroImage}>
                     <Image src="/hero/heroGirl.png"
                       alt="hero" layout="responsive"
@@ -71,7 +71,7 @@ const home = () => {
           <Grid item xs={12}>
             <Container>
               <Grid container spacing={2}  >
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} >
+                <Grid item xs={12} sm={12} md={7} lg={6} xl={6} >
                   <Grid container>
                     {allData.services.map(item => (
                       <Grid key={item.id} item xs={12} sm={6} md={6} lg={6} xl={6}>
@@ -88,7 +88,7 @@ const home = () => {
                     ))}
                   </Grid>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.servicesRightGrid} >
+                <Grid item xs={12} sm={12} md={5} lg={6} xl={6} className={classes.servicesRightGrid} >
                   <div className={classes.servicesRight}>
                     <h1 className={classes.servicesRt}>
                       {allData.serviceRt}
