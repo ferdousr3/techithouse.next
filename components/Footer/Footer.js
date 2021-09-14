@@ -14,7 +14,7 @@ const Footer = () => {
             <Container>
               <Grid container spacing={2}>
                 {/* first part */}
-                <Grid item xs={12} sm={6} md={3} lg={3} xl={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3} xl={3}>
                   <div className={classes.footeFirstpart}>
                     <div className="div">
                       <h1 className={classes.footefirstpTitle} >
@@ -29,7 +29,7 @@ const Footer = () => {
                   </div>
                 </Grid>
                 {/* second part */}
-                <Grid item xs={12} sm={6} md={3} lg={3} xl={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3} xl={3}>
                   <div className={classes.footeSecondpart}>
                     <h1 className={classes.footerTitle} >Quick Links</h1>
                     <ul>
@@ -72,7 +72,7 @@ const Footer = () => {
                   </div>
                 </Grid>
                 {/* third part */}
-                <Grid item xs={12} sm={6} md={3} lg={3} xl={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3} xl={3}>
                   <div className={classes.footeSecondpart}>
                     <h1 className={classes.footerTitle} >Services</h1>
                     <ul>
@@ -108,7 +108,7 @@ const Footer = () => {
                   </div>
                 </Grid>
                 {/* fouth part */}
-                <Grid item xs={12} sm={6} md={3} lg={3} xl={3}>
+                <Grid item xs={12} sm={6} md={6} lg={3} xl={3}>
                   <div className={classes.footeSecondpart}>
                     <h1 className={classes.footerTitle} >Get In Touch</h1>
                     <ul>
