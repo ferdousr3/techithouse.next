@@ -3,6 +3,7 @@ import { Container, CssBaseline } from "@material-ui/core";
 import { ThemeProvider, createTheme } from '@material-ui/core/styles';
 import Navbar from "./Navbar/Navbar";
 import useStyles from "../theme/styles";
+import Footer from "./Footer/Footer";
 
 
 const Layout = ({ title, description, children }) => {
@@ -58,7 +59,7 @@ const Layout = ({ title, description, children }) => {
           {children}
         </div>
         <footer className={classes.footer} >
-          <h2>footer techithouse</h2>
+          <Footer />
         </footer>
       </ThemeProvider>
     </>

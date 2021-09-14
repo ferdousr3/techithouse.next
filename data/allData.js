@@ -2,6 +2,7 @@ import Glob from "/public/services/glob.gif"
 import Code from "/public/services/code.gif"
 import Tool from "/public/services/tool.gif"
 import Marketing from "/public/services/marketing.gif"
+import { FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP} from "react-icons/fa";
 
 
 const allData = {
@@ -35,6 +36,32 @@ const allData = {
   serviceRt: "features",
   serviceRst: "Let’s Check Our all Services",
   serviceRpt: "We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out. Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time.",
+  socials:[
+    {
+      id:1,
+      name:"Facebook",
+      icon: FaFacebook,
+      link:"https://www.facebook.com/",
+    },
+    {
+      id:2,
+      name:"Twitter",
+      icon: FaTwitter,
+      link:"https://www.facebook.com/",
+    },
+    {
+      id:3,
+      name:"Linkedin",
+      icon: FaLinkedinIn,
+      link:"https://www.facebook.com/",
+    },
+    {
+      id:4,
+      name:"Pinterest",
+      icon: FaPinterestP,
+      link:"https://www.facebook.com/",
+    },
+  ],
 
 };
 export default allData;
