@@ -33,7 +33,7 @@ const allData = {
     },
   ],
   serviceRt: "features",
-  serviceRst: "Let’s Check Our Services",
+  serviceRst: "Let’s Check Our all Services",
   serviceRpt: "We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out. Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time.",
 
 };

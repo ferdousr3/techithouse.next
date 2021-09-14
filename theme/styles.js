@@ -147,24 +147,29 @@ const useStyles = makeStyles((theme) => ({
     color: themes.error,
     fontFamily: themes.source,
     fontWeight: 800,
+    lineHeight: '2.1rem',
   },
   servicesLeftDetails: {
     fontFamily: themes.rubik,
     color: "#252B31",
     fontWeight: 400,
   },
-  servicesRight:{
+  servicesRightGrid: {
+    display: 'flex',
+    alignItems: 'center',
+  },
+  servicesRight: {
     [ theme.breakpoints.up("sm") ]: {
       paddingLeft: '35px',
     },
   },
   servicesRt: {
-    fontFamily: themes.source,
+    fontFamily: themes.rubik,
     color: themes.info,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,
-    letterSpacing:'.2rem',
+    letterSpacing: '.2rem',
   },
   servicesRst: {
     fontFamily: themes.source,
@@ -182,6 +187,32 @@ const useStyles = makeStyles((theme) => ({
     color: themes.info,
     fontSize: '1rem',
     fontWeight: 400,
+  },
+  serviceBtnMargin: {
+    marginTop: '45px',
+    marginLeft: '10px',
+  },
+  serviceRBtn: {
+    fontFamily: '"Rubik", "Sans- serif"',
+    fontSize: '12px',
+    fontWeight: 500,
+    letterSpacing: ' 0.2px',
+    color: '#69747f',
+    textTransform: 'uppercase',
+    border: '2px solid #8582A2',
+    borderRadius: '25px',
+    padding: '14px 27px 14px 27px',
+    cursor: ' pointer',
+    background: 'rgba(0, 0, 0, 0)',
+    [ theme.breakpoints.up("sm") ]: {
+      marginRight: '10px',
+    },
+    '&:hover': {
+      transition: 'all .6s',
+      background: '#1A233E',
+      color: '#FFFFFF',
+      border: '2px solid #1A233E',
+    },
   },
 }));
 export default useStyles;

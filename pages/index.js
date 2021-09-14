@@ -4,6 +4,7 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import allData from "../data/allData";
 import useStyles from "../theme/styles";
+import ServicesRight from "../components/Services/ServicesRight";
 
 
 
@@ -87,7 +88,7 @@ const home = () => {
                     ))}
                   </Grid>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} >
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.servicesRightGrid} >
                   <div className={classes.servicesRight}>
                     <h1 className={classes.servicesRt}>
                       {allData.serviceRt}
@@ -101,12 +102,30 @@ const home = () => {
                     <div className="div">
                       <Grid container>
                         <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                          <p>hello</p>
+                          <ServicesRight
+                            title="Understand Your Audience"
+                          />
+                          <ServicesRight 
+                            title="Understand Your Audience"
+                          />
+
                         </Grid>
                         <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                          <p>hello</p>
+                          <ServicesRight
+                            title="Understand Your Audience"
+                          />
+                          <ServicesRight
+                            title="Understand Your Audience"
+                          />
                         </Grid>
                       </Grid>
+                    </div>
+                    <div className={classes.serviceBtnMargin}>
+                      <NextLink href="/" >
+                        <a className={classes.serviceRBtn} >
+                          contact today
+                        </a>
+                      </NextLink>
                     </div>
                   </div>
                 </Grid>
