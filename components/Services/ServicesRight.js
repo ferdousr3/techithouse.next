@@ -14,10 +14,11 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: '80%',
   },
   serviceElimentDetails:{
-    fontFamily: themes.source,
-    color: themes.error,
-    fontWeight: 700,
+    fontFamily: themes.rubik,
+    color: '#030C26',
     fontSize: '1rem',
+    fontWeight: 600,
+    
   },
 
 }));

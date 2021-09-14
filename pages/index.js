@@ -1,10 +1,12 @@
-import { Container, Grid, Typography } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
 import NextLink from "next/link";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import allData from "../data/allData";
 import useStyles from "../theme/styles";
 import ServicesRight from "../components/Services/ServicesRight";
+import AboutusLeft from "../components/Aboutus/AboutusLeft";
+import Workingprocess from "../components/Workingprocess/Workingprocess";
 
 
 
@@ -18,8 +20,6 @@ const home = () => {
       <Layout
         title="Home - techithouse"
       >
-
-
         {/* hero section */}
         <Grid container className={classes.hero}>
           <Grid item xs={12}>
@@ -96,9 +96,9 @@ const home = () => {
                     <h2 className={classes.servicesRst}>
                       {allData.serviceRst}
                     </h2>
-                    <h3 className={classes.servicesRpt}>
+                    <p className={classes.servicesRpt}>
                       {allData.serviceRpt}
-                    </h3>
+                    </p>
                     <div className="div">
                       <Grid container>
                         <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
@@ -108,7 +108,6 @@ const home = () => {
                           <ServicesRight
                             title="Understand Your Audience"
                           />
-
                         </Grid>
                         <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
                           <ServicesRight
@@ -147,43 +146,62 @@ const home = () => {
                       <h2 className={classes.aboutusRst}>
                         {allData.aboutusRst}
                       </h2>
-                      <h3 className={classes.aboutusRpt}>
+                      <p className={classes.aboutusRpt}>
                         {allData.aboutusRpt}
-                      </h3>
+                      </p>
                     </div>
                     <div className="div">
                       <Grid container>
-                        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                          <ServicesRight
-                            title="Understand Your Audience"
-                          />
-                          <ServicesRight
-                            title="Understand Your Audience"
-                          />
+                        <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
 
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                          <ServicesRight
-                            title="Understand Your Audience"
+                          <AboutusLeft
+                            title="200"
+                            details="Happy Client"
                           />
-                          <ServicesRight
-                            title="Understand Your Audience"
+                          <AboutusLeft
+                            title="20"
+                            details="Awards"
+                          />
+                        </Grid>
+                        <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+
+                          <AboutusLeft
+                            title="3.5+"
+                            details="Experience"
+                          />
+                          <AboutusLeft
+                            title="100"
+                            details="Project"
                           />
                         </Grid>
                       </Grid>
                     </div>
-                    <div className={classes.aboutusBtnMargin}>
-                      <NextLink href="/" >
+                    {/* <div className={classes.aboutusBtnMargin}>
+                      <NextLink href="/services" >
                         <a className={classes.aboutusRBtn} >
-                          contact today
+                          Reade More
                         </a>
                       </NextLink>
-                    </div>
+                    </div> */}
                   </div>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.aboutusRight} >
                   <div className={classes.aboutusRightImag} >
                     <Image src="/aboutus/about1.svg" alt="about us" layout="responsive" width={674} height={631} />
+                  </div>
+                </Grid>
+              </Grid>
+            </Container>
+          </Grid>
+        </Grid>
+        {/* Working process */}
+        <Grid container className={classes.Workingprocess} >
+          <Grid item xs={12}>
+            <Container>
+              <Grid container spacing={2}  >
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12} className={classes.WorkingprocessGrid} >
+                  <div className={classes.WorkingprocessMain}>
+                    <Workingprocess />
                   </div>
                 </Grid>
               </Grid>

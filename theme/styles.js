@@ -128,7 +128,7 @@ const useStyles = makeStyles((theme) => ({
   },
   // services
   services: {
-    padding: '5rem 0px',
+    padding: '5rem 0rem 1.5rem 0rem',
   },
   servicesLeft: {
     backgroundColor: '#FFFFFF',
@@ -216,28 +216,23 @@ const useStyles = makeStyles((theme) => ({
   },
   // about us
   aboutus: {
-    padding: '5rem 0px',
+    padding: '1.5rem 0rem 1.5rem 0rem',
     background: '#F8F8F8',
   },
   aboutusLeftGrid: {
     display: 'flex',
     alignItems: 'center',
     backgroundImage: 'url("/aboutus/bg1.png")',
-    backgroundPosition: 'center',
+    backgroundPosition: 'top left',
     backgroundRepeat: 'no-repeat',
   },
   aboutusLeft: {
     [ theme.breakpoints.up("sm") ]: {
       paddingright: '20px',
-      paddingLeft: '20px',
+      paddingLeft: '15px',
     },
   },
-  // aboutusLeftBg: {
-  //   backgroundImage: 'url("/aboutus/bg1.png")',
-  //   backgroundPosition:'left',
-  //   backgroundRepeat:'no-repeat',
-    
-  // },
+
   aboutusRt: {
     fontFamily: themes.rubik,
     color: themes.info,
@@ -294,17 +289,10 @@ const useStyles = makeStyles((theme) => ({
       border: '2px solid #1A233E',
     },
   },
-  aboutusRight:{
-    border: '1px solid red',
-  },
-  aboutusRightImag: {
-    display: 'block',
-    // textAlign: 'right',
-    border: '1px solid red',
-    // [ theme.breakpoints.up("sm") ]: {
-    //   marginright: '-20px',
-      
-    // },
+  // Workingprocess
+  Workingprocess:{
+    background: '#fafafa',
+    padding: '1.5rem 0rem 1.5rem 0rem',
   },
 }));
 export default useStyles;
