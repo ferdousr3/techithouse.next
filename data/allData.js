@@ -36,6 +36,10 @@ const allData = {
   serviceRt: "features",
   serviceRst: "Let’s Check Our all Services",
   serviceRpt: "We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out. Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time.",
+  aboutusRt: "About us",
+  aboutusRst: "Affordable. Customer Friendly. Results-Oriented",
+  aboutusRpt: "Tech IT house is a one-stop digital Service agency located in Bangladesh. Wе hаvе up to date еxреriеnсе in uѕеr web and graphics design, web development, digital marketing. We fосuѕ оn dеlivеring with professional services аnd building lоng-tеrm relationship with оur сliеntѕ.Our team holds themselves accountable for every client's project.",
+
   socials:[
     {
       id:1,

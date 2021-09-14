@@ -214,5 +214,97 @@ const useStyles = makeStyles((theme) => ({
       border: '2px solid #1A233E',
     },
   },
+  // about us
+  aboutus: {
+    padding: '5rem 0px',
+    background: '#F8F8F8',
+  },
+  aboutusLeftGrid: {
+    display: 'flex',
+    alignItems: 'center',
+    backgroundImage: 'url("/aboutus/bg1.png")',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  },
+  aboutusLeft: {
+    [ theme.breakpoints.up("sm") ]: {
+      paddingright: '20px',
+      paddingLeft: '20px',
+    },
+  },
+  // aboutusLeftBg: {
+  //   backgroundImage: 'url("/aboutus/bg1.png")',
+  //   backgroundPosition:'left',
+  //   backgroundRepeat:'no-repeat',
+    
+  // },
+  aboutusRt: {
+    fontFamily: themes.rubik,
+    color: themes.info,
+    fontSize: '1rem',
+    textTransform: 'uppercase',
+    fontWeight: 600,
+    letterSpacing: '.2rem',
+  },
+  aboutusRst: {
+    fontFamily: themes.source,
+    color: themes.error,
+    lineHeight: '2.9rem',
+    fontSize: '2.7rem',
+    fontWeight: 700,
+    paddingTop: '5px',
+    paddingBottom: '5px',
+    margin: '10px 0px',
+    [ theme.breakpoints.up("sm") ]: {
+      paddingRight: '30px',
+    },
+  },
+  aboutusRpt: {
+    fontFamily: themes.rubik,
+    color: themes.info,
+    fontSize: '1rem',
+    fontWeight: 400,
+    [ theme.breakpoints.up("sm") ]: {
+      paddingRight: '30px',
+    },
+  },
+  aboutusBtnMargin: {
+    marginTop: '45px',
+    marginLeft: '10px',
+  },
+  aboutusRBtn: {
+    fontFamily: '"Rubik", "Sans- serif"',
+    fontSize: '12px',
+    fontWeight: 500,
+    letterSpacing: ' 0.2px',
+    color: '#69747f',
+    textTransform: 'uppercase',
+    border: '2px solid #8582A2',
+    borderRadius: '25px',
+    padding: '14px 27px 14px 27px',
+    cursor: ' pointer',
+    background: 'rgba(0, 0, 0, 0)',
+    [ theme.breakpoints.up("sm") ]: {
+      marginRight: '10px',
+    },
+    '&:hover': {
+      transition: 'all .6s',
+      background: '#1A233E',
+      color: '#FFFFFF',
+      border: '2px solid #1A233E',
+    },
+  },
+  aboutusRight:{
+    border: '1px solid red',
+  },
+  aboutusRightImag: {
+    display: 'block',
+    // textAlign: 'right',
+    border: '1px solid red',
+    // [ theme.breakpoints.up("sm") ]: {
+    //   marginright: '-20px',
+      
+    // },
+  },
 }));
 export default useStyles;

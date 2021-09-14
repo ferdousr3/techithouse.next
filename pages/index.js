@@ -105,7 +105,7 @@ const home = () => {
                           <ServicesRight
                             title="Understand Your Audience"
                           />
-                          <ServicesRight 
+                          <ServicesRight
                             title="Understand Your Audience"
                           />
 
@@ -133,7 +133,63 @@ const home = () => {
             </Container>
           </Grid>
         </Grid>
+        {/* About us  */}
+        <Grid container className={classes.aboutus} >
+          <Grid item xs={12}>
+            <Container>
+              <Grid container spacing={2}  >
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.aboutusLeftGrid} >
+                  <div className={classes.aboutusLeft}>
+                    <div className={classes.aboutusLeftBg}>
+                      <h1 className={classes.aboutusRt}>
+                        {allData.aboutusRt}
+                      </h1>
+                      <h2 className={classes.aboutusRst}>
+                        {allData.aboutusRst}
+                      </h2>
+                      <h3 className={classes.aboutusRpt}>
+                        {allData.aboutusRpt}
+                      </h3>
+                    </div>
+                    <div className="div">
+                      <Grid container>
+                        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+                          <ServicesRight
+                            title="Understand Your Audience"
+                          />
+                          <ServicesRight
+                            title="Understand Your Audience"
+                          />
 
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+                          <ServicesRight
+                            title="Understand Your Audience"
+                          />
+                          <ServicesRight
+                            title="Understand Your Audience"
+                          />
+                        </Grid>
+                      </Grid>
+                    </div>
+                    <div className={classes.aboutusBtnMargin}>
+                      <NextLink href="/" >
+                        <a className={classes.aboutusRBtn} >
+                          contact today
+                        </a>
+                      </NextLink>
+                    </div>
+                  </div>
+                </Grid>
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.aboutusRight} >
+                  <div className={classes.aboutusRightImag} >
+                    <Image src="/aboutus/about1.svg" alt="about us" layout="responsive" width={674} height={631} />
+                  </div>
+                </Grid>
+              </Grid>
+            </Container>
+          </Grid>
+        </Grid>
       </Layout>
     </>
   );
