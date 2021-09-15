@@ -165,7 +165,7 @@ const useStyles = makeStyles((theme) => ({
   },
   servicesRt: {
     fontFamily: themes.rubik,
-    color: themes.info,
+    color: themes.warning,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,
@@ -235,7 +235,7 @@ const useStyles = makeStyles((theme) => ({
 
   aboutusRt: {
     fontFamily: themes.rubik,
-    color: themes.info,
+    color: themes.warning,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,
@@ -293,6 +293,11 @@ const useStyles = makeStyles((theme) => ({
   Workingprocess:{
     background: '#fafafa',
     padding: '1.5rem 0rem 1.5rem 0rem',
+  },
+  // team
+  team:{
+    background: '#fff',
+    padding: '2rem 0rem 1.5rem 0rem',
   },
 }));
 export default useStyles;

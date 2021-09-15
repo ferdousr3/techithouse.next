@@ -7,6 +7,7 @@ import useStyles from "../theme/styles";
 import ServicesRight from "../components/Services/ServicesRight";
 import AboutusLeft from "../components/Aboutus/AboutusLeft";
 import Workingprocess from "../components/Workingprocess/Workingprocess";
+import Team from "../components/Team/Team";
 
 
 
@@ -205,6 +206,14 @@ const home = () => {
                   </div>
                 </Grid>
               </Grid>
+            </Container>
+          </Grid>
+        </Grid>
+        {/* our team */}
+        <Grid container className={classes.team} >
+          <Grid item xs={12}>
+            <Container>
+              <Team />
             </Container>
           </Grid>
         </Grid>
