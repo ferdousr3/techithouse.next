@@ -8,6 +8,7 @@ import ServicesRight from "../components/Services/ServicesRight";
 import AboutusLeft from "../components/Aboutus/AboutusLeft";
 import Workingprocess from "../components/Workingprocess/Workingprocess";
 import Team from "../components/Team/Team";
+import HomeAccordion from "../components/Accordion/HomeAccordion";
 
 
 
@@ -214,6 +215,14 @@ const home = () => {
           <Grid item xs={12}>
             <Container>
               <Team />
+            </Container>
+          </Grid>
+        </Grid>
+        {/* Accorrdion*/}
+        <Grid container className={classes.homeAccordion} >
+          <Grid item xs={12}>
+            <Container>
+              <HomeAccordion />
             </Container>
           </Grid>
         </Grid>

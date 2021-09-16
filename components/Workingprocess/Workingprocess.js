@@ -136,6 +136,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     background: '#fafafa',
     textAlign: 'center',
+    paddingBottom: '1.5rem',
   },
   workpt: {
     fontFamily: themes.rubik,

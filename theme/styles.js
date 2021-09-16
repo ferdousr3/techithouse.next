@@ -296,8 +296,13 @@ const useStyles = makeStyles((theme) => ({
   },
   // team
   team:{
-    background: '#fff',
-    padding: '2rem 0rem 1.5rem 0rem',
+    background: '#f8f8f8',
+    padding: '2.5rem 0rem 1.5rem 0rem',
+  },
+  // homeAccordion
+  homeAccordion:{
+    background: '#f8f8f8',
+    padding: '2.5rem 0rem 1.5rem 0rem',
   },
 }));
 export default useStyles;
