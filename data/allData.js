@@ -133,31 +133,7 @@ const allData = {
       h1: "How Much Will A Website Cost Me?",
       h2: "The Cost Of A Website Varies Depends On Its Complexity. We Are Happy To Discuss Your Requirements And Provide A Quote At Any Time",
     },
-    {
-      id: "panel6",
-      h1: "What Graphic Design Services Do You Provide?",
-      h2: "Pretty Much Everything. We Can Help You With: Web Design, Logo DesignPrint, Design, Packaging Design, Illustration, Photo Manipulation …And More. We Can Help You Get What You Need.",
-    },
-    {
-      id: "panel7",
-      h1: "How SEO Agency Improve The Ranking Of A Website?",
-      h2: "“SEO Is A Combination Of Different Techniques Which Can Help Your Website Get Relevant Traffic And Improve It’s Overall Ranking. SEO Agency Have Experts To Analyze Your Website And It’s Different Aspects.They Test Your Website On Criteria Like UX, Mobile Responsiveness Website Content, Technical Errors, On-Page Changes, Backlink Quality And Overall Improvement Of Website Quality.Once The Concise Report Is Made About Required Changes, The Changes Get Implemented On Website And SEO Strategy Is Made According To The Scope Of Work. Execution Of Strategy Is Done By SEOs Throughout The Campaign. Also Frequent Monitoring Is Done To Validate The SEO Strategy. The Continuous Efforts Throughout The Campaign Make The Targeted Keywords Rank Better And Improve The Organic Traffic Of Website.”",
-    },
-    {
-      id: "panel8",
-      h1: "What Are The Services Provided By Digital Marketing Agencies ?",
-      h2: "Digital Marketing Agencies Provide A Lot Of Services For Various Online Activities Like Search Engine Optimization (SEO), Content Marketing (Blogging & Article Writing), Downloadable Content Offerings, Email Marketing, Social Media Marketing, Pay-Per-Click (PPC) Marketing, Website Design / Micro-Site Development.",
-    },
-    {
-      id: "panel9",
-      h1: "How Many Revisions Do I Get?",
-      h2: "We Provide As Many As Possible So That You Can Get The Best Graphic Design Services",
-    },
-    {
-      id: "panel10",
-      h1: "Can You Provide Business Application?",
-      h2: "Yes We Have C# Developer Who Makes Simple Retail Management System, Sales Management, Quick Sell, Factory Management Services Application For You.",
-    },
+   
   ],
   aboutaccordions: [
     {

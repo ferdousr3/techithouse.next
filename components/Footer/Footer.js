@@ -137,12 +137,17 @@ const Footer = () => {
                   </div>
                 </Grid>
               </Grid>
+              <div className={classes.footerCopyrightDiv}>
+                <p className={classes.footerCopyright} >
+                  &copy; {new Date().getFullYear()} - <a href="">TectIThouse</a>. All Rights Reserved.
+                </p>
+              </div>
             </Container>
-            <div className={classes.footerCopyrightDiv}>
+            {/* <div className={classes.footerCopyrightDiv}>
               <p className={classes.footerCopyright} >
                 &copy; {new Date().getFullYear()} - <a href="">TectIThouse</a>. All Rights Reserved.
               </p>
-            </div>
+            </div> */}
           </Grid>
         </Grid>
       </div>

@@ -302,7 +302,7 @@ const useStyles = makeStyles((theme) => ({
   // homeAccordion
   homeAccordion:{
     background: '#FFFFFF',
-    padding: '2.5rem 0rem 1.5rem 0rem',
+    padding: '2.5rem 0rem 4rem 0rem',
   },
 }));
 export default useStyles;
