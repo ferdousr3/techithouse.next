@@ -27,7 +27,7 @@ const Layout = ({ title, description, children }) => {
     palette: {
       type: 'light',
       primary: {
-        main: '#f2f2f2',
+        main: '#ffffff',
       },
       secondary: {
         main: '#0AC0AB',

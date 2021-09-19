@@ -17,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
   pageTitleMain: {
     textAlign: 'center',
     color: '#ffffff',
-    paddingTop: '4rem',
-    paddingBottom: '4rem',
+    paddingTop: '6rem',
+    paddingBottom: '5rem',
   },
   pTitle: {
     fontFamily: themes.rubik,
@@ -59,7 +59,9 @@ const PageTitle = ({ pagename, title, subtitle }) => {
           <Container>
             <div className={classes.pageTitleMain}>
               <div className="title">
-                <p className={classes.pTitle} >{pagename}</p>
+                <p className={classes.pTitle} >
+                  {pagename}
+                </p>
               </div>
               <div className={classes.pLink}>
                 <NextLink href="/" >
