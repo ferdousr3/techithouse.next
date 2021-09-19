@@ -9,6 +9,7 @@ import themes from "../theme/themes";
 
 const CssTextField = withStyles({
   root: {
+    width: '100%',
     '& label.Mui-focused': {
       color: '#696687',
       fontFamily: themes.rubik,
@@ -83,29 +84,31 @@ const contact = () => {
             <Container>
               <Grid container >
                 {/* contact details */}
-                <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
-                  <div className="contactDetails">
-                    <h1 className={classes.contactDetailsTitle} >
-                      get in touch
-                    </h1>
-                    <h2 className={classes.contactDetailsSubTitle} >
-                      Contact Us
-                    </h2>
-                    <p className={classes.contactDetailsP} >
-                      I have worls-class, flexible support via live chat, email and hone. I guarantee that you’ll be able to have any issue resolved within 24 hours.
-                    </p>
-                  </div>
-                  <div className="phone">
-                    <h1 className={classes.contactDetailsPhone} >phone:</h1>
-                    <p className={classes.contactDetailsPD} >+880 01710 014145</p>
-                  </div>
-                  <div className={classes.contactEmail}>
-                    <h1 className={classes.contactDetailsPhone} >Send Mail:</h1>
-                    <p className={classes.contactDetailsPD} >contact@techithouse.com</p>
-                  </div>
-                  <div className="Addres">
-                    <h1 className={classes.contactDetailsPhone} >Address:</h1>
-                    <p className={classes.contactDetailsPD} >Dhaka, Bangladesh.</p>
+                <Grid item xs={12} sm={12} md={12} lg={6} xl={6} className={classes.contactMainAling} >
+                  <div className="div">
+                    <div  >
+                      <h1 className={classes.contactDetailsTitle} >
+                        get in touch
+                      </h1>
+                      <h2 className={classes.contactDetailsSubTitle} >
+                        Contact Us
+                      </h2>
+                      <p className={classes.contactDetailsP} >
+                        I have worls-class, flexible support via live chat, email and hone. I guarantee that you’ll be able to have any issue resolved within 24 hours.
+                      </p>
+                    </div>
+                    <div className="phone">
+                      <h1 className={classes.contactDetailsPhone} >phone:</h1>
+                      <p className={classes.contactDetailsPD} >+880 01710 014145</p>
+                    </div>
+                    <div className={classes.contactEmail}>
+                      <h1 className={classes.contactDetailsPhone} >Send Mail:</h1>
+                      <p className={classes.contactDetailsPD} >contact@techithouse.com</p>
+                    </div>
+                    <div className="Addres">
+                      <h1 className={classes.contactDetailsPhone} >Address:</h1>
+                      <p className={classes.contactDetailsPD} >Dhaka, Bangladesh.</p>
+                    </div>
                   </div>
                 </Grid>
                 {/* contact from */}
@@ -120,7 +123,7 @@ const contact = () => {
                       Programs provi patient peace mind when option.
                     </p>
 
-                    <Grid container >
+                    <Grid container spacing={2} >
                       <Grid className={classes.fromMainFild}
                         item xs={12} sm={12} md={12} lg={6} xl={6}>
                         <CssTextField
@@ -145,7 +148,7 @@ const contact = () => {
                         <CssTextField
                           id="standard-textarea"
                           label="Number"
-                          placeholder="Your Phone"
+                          placeholder="Your Phone Number"
                           multiline
                         />
                       </Grid>
@@ -162,12 +165,15 @@ const contact = () => {
                         item xs={12} sm={12} md={12} lg={12} xl={12}>
                         <CssTextField
                           id="standard-textarea"
-                          label="Email"
-                          placeholder="Your Email"
+                          label="Message"
+                          placeholder="Write Your Message"
                           rows={3}
                           multiline
                         />
                       </Grid>
+                      <button className={classes.contactFromBtn} >
+                        Send Message
+                      </button>
                     </Grid>
                   </div>
                 </Grid>
