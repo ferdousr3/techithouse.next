@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import PageTitle from "../components/PageTitle/PageTitle";
 
 
 
@@ -6,9 +7,15 @@ const services = () => {
   return (
     <>
       <Layout
+        // SEO
         title="Services - techithouse"
       >
-        <h1> Services - techithouse </h1>
+        {/* page title */}
+        <PageTitle
+          pagename="Services"
+          title="Home"
+          subtitle="Services"
+        />
 
 
       </Layout>

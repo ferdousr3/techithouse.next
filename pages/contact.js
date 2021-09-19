@@ -94,7 +94,7 @@ const contact = () => {
                         Contact Us
                       </h2>
                       <p className={classes.contactDetailsP} >
-                        I have worls-class, flexible support via live chat, email and hone. I guarantee that you’ll be able to have any issue resolved within 24 hours.
+                        We have worlds-class, flexible support via live chat, email and hone. I guarantee that you’ll be able to have any issue resolved within 24 hours.
                       </p>
                     </div>
                     <div className="phone">

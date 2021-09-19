@@ -1,14 +1,14 @@
 import themes from "../../theme/themes";
 import { makeStyles } from "@material-ui/core";
-import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
 const useStyles = makeStyles((theme) => ({
   serviceEliment: {
     display: 'flex',
   },
   serviceElimentIcon: {
-    color: '#121331',
-    // background: '#08A88A',
+    color: '#5747e4',
+    // background: '#5747e4',
     marginTop: '15px',
     marginRight: '6px',
     borderRadius: '80%',
@@ -30,7 +30,7 @@ const ServicesRight = ({ title }) => {
     <>
       <div className={classes.serviceEliment}>
         <span>
-          <CheckCircleOutlineIcon className={classes.serviceElimentIcon} />
+          <CheckCircleIcon className={classes.serviceElimentIcon} />
         </span>
         <p className={classes.serviceElimentDetails} >
           {title}
