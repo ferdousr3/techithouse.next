@@ -17,6 +17,8 @@ import rafid from "../public/team/rafid.jpg";
 import sabbir from "../public/team/sabbir.jpg";
 
 
+
+
 const allData = {
   heroSubTitle: "Grow Your Businesses With Our Creative Graphic Design, Interactive Websites, And Gather Customers That Connect To Your Brand With Our Leading-Edge Digital Marketing Services.",
   services:[

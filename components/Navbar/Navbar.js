@@ -28,15 +28,16 @@ const Navbar = () => {
       icon: <SubjectOutlined color="secondary" />,
       path: '/services',
     },
-    {
-      text: 'Agency',
-      icon: <AddCircleOutlineOutlined color="secondary" />,
-      path: '/agency',
-    },
+
     {
       text: 'Why We',
       icon: <PeopleAltOutlinedIcon color="secondary" />,
       path: '/whywe',
+    },
+    {
+      text: 'About Us',
+      icon: <AddCircleOutlineOutlined color="secondary" />,
+      path: '/about',
     },
     {
       text: 'Contact',
@@ -65,15 +66,15 @@ const Navbar = () => {
           variant="persistent"
           anchor="left"
           open={open}
-          onClose={() => setOpen (false)}
+          onClose={() => setOpen(false)}
           classes={{ paper: classes.drawerPaper }}
         >
           <div className={classes.drawerTop}>
             <li className={classes.drawerTopMenu} >
-              <NextLink  href="/" >
+              <NextLink href="/" >
                 <a >TechitHouse</a>
               </NextLink>
-           </li>
+            </li>
             <IconButton aria-label="close drawer"
               onClick={handleDrawerClose}  >
               <CloseOutlinedIcon />
@@ -115,16 +116,17 @@ const Navbar = () => {
                   title="Services"
                 />
               </li>
-              <li>
-                <ActiveLink
-                  href="/agency"
-                  title="Agency"
-                />
-              </li>
+
               <li>
                 <ActiveLink
                   href="/whywe"
                   title="Why We"
+                />
+              </li>
+              <li>
+                <ActiveLink
+                  href="/about"
+                  title="About Us"
                 />
               </li>
               <li>
@@ -139,7 +141,7 @@ const Navbar = () => {
               <IconButton aria-label="open drawer"
                 onClick={handleDrawerOpen} >
                 {/* <FaBars className={classes.navbarToggleS} /> */}
-                <DehazeOutlinedIcon className={classes.navbarToggleS}  />
+                <DehazeOutlinedIcon className={classes.navbarToggleS} />
               </IconButton>
             </div>
           </Toolbar>
