@@ -8,7 +8,10 @@ import allData from "../data/allData";
 import dev from "../public/about/dev.png";
 import design from "../public/about/design.png";
 import marketing from "../public/about/marketing.png";
-import { FaRegLightbulb, FaMedapps, FaSearchengin, FaMedal } from "react-icons/fa";
+import {FaMedapps, FaSearchengin, FaMedal } from "react-icons/fa";
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import CheckIcon from '@material-ui/icons/Check';
+import CheckCircleSharpIcon from '@material-ui/icons/CheckCircleSharp';
 
 
 
@@ -237,14 +240,84 @@ const agency = () => {
             </Container>
           </Grid>
         </Grid>
+        {/* WHY CHOOSE US */}
+        <Grid container className={classes.whywe} >
+          <Grid item xs={12}>
+            <Container>
+              <Grid container spacing={3} className={classes.whyweMain} >
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.whyweLeft} >
+                  <div className="div">
+                    <Image
+                      src="/about/about_us1.png"
+                      alt="about us"
+                      width={496}
+                      height={456}
+                    />
+                  </div>
+                </Grid>
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.whyweRight} >
+                  <div className="div">
+                    <div className="div">
+                      <h1 className={classes.whyweTitle} >
+                        WHY CHOOSE US
+                      </h1>
+                      <h2 className={classes.whywesubT} >
+                        Save Time & Effort
+                        With the Techithouse
+                      </h2>
+                    </div>
+                    <div className={classes.whyweRMain}>
+                      <CheckIcon className={classes.whyweRIcon1} />
+                      <div className={classes.whyweRheading}>
+                        <h1  >
+                          First Working Process
+                        </h1>
+                        <p >
+                          For startups and growing businesses, an online specialist can develop a digital marketing plan to help you grow.
+                        </p>
+                      </div>
+                    </div>
+                    <div className={classes.whyweRMain}>
+                      <CheckIcon className={classes.whyweRIcon2} />
+                      <div className={classes.whyweRheading}>
+                        <h1  >
+                          Dedicated Team Member
+                        </h1>
+                        <p >
+                          Your digital consultant will also be able to kickstart campaigns and maximise your marketing budget
+                        </p>
+                      </div>
+                    </div>
+                    <div className={classes.whyweRMain}>
+                      <CheckIcon className={classes.whyweRIcon3} />
+                      <div className={classes.whyweRheading}>
+                        <h1>
+                          24/7 Hours Support
+                        </h1>
+                        <p >
+                          Lorem ipsum dolor sit amet, vix an natum labitur eleif, mel amet laoreet prois menandri.
+                        </p>
+                      </div>
+                    </div>
+                    <button className={classes.aboutMBtn} >
+                      <NextLink href="/whywe" >
+                        Discover More
+                      </NextLink>
+                    </button>
+                  </div>
+                </Grid>
+              </Grid>
+            </Container>
+          </Grid>
+        </Grid>
         {/* about us last part */}
-        <Grid container className={classes.homeAccordion} >
+        {/* <Grid container className={classes.homeAccordion} >
           <Grid item xs={12}>
             <Container>
               gggg
             </Container>
           </Grid>
-        </Grid>
+        </Grid> */}
       </Layout>
     </>
   );

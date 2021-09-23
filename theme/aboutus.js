@@ -91,6 +91,8 @@ const useStyles = makeStyles((theme) => ({
   // },
   MainaboutDesign1: {
     background: '#f9f8ff',
+    boxShadow: '0px 0px 1px rgb(249, 248, 255 / 80 %)',
+    border: '1px solid #E5E8EC',
     padding: '35px',
     textAlign: 'center',
     borderRadius: '10px',
@@ -110,6 +112,8 @@ const useStyles = makeStyles((theme) => ({
   },
   MainaboutDesign2: {
     background: '#fffcf6',
+    boxShadow: '0px 0px 1px rgb(255, 252, 246 / 80 %)',
+    border: '1px solid #E5E8EC',
     padding: '35px',
     textAlign: 'center',
     borderRadius: '10px',
@@ -129,6 +133,8 @@ const useStyles = makeStyles((theme) => ({
   },
   MainaboutDesign3: {
     background: '#f0fffc',
+    boxShadow: '0px 0px 1px rgb(240, 255, 252 / 80 %)',
+    border: '1px solid #E5E8EC',
     padding: '35px',
     textAlign: 'center',
     borderRadius: '10px',
@@ -254,7 +260,7 @@ const useStyles = makeStyles((theme) => ({
       padding: '2rem 0rem 2rem 0rem',
     },
     [ theme.breakpoints.up("md") ]: {
-      padding: '2rem 2rem 2rem 2rem',
+                              padding: '2rem 2rem 2rem 2rem',
     },
   },
   whatWeDoMain: {
@@ -384,7 +390,7 @@ const useStyles = makeStyles((theme) => ({
   },
   // vission & mission
   vission: {
-    backgroundColor: '#F8F8F8',
+    backgroundColor: '#F9F8FE',
     [ theme.breakpoints.down("md") ]: {
       padding: '2rem 0rem 3.5rem 0rem',
     },
@@ -434,7 +440,120 @@ const useStyles = makeStyles((theme) => ({
   },
   vissionMainDetails: {
     marginLeft: '15px',
+    // border: '1px solid #E5E8EC',
+    // backgroundColor: '#fff',
+    // boxShadow: '0 1px 10px 0 rgb(0 0 0 / 5 %)',
+    // padding: '10px 0px 10px 10px',
   },
+  // WHY CHOOSE US
+  whywe: {
+    [ theme.breakpoints.down("md") ]: {
+      padding: '2rem 0rem 2rem 0rem',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      padding: '2rem 0rem 2rem 0rem',
+    },
+    [ theme.breakpoints.up("md") ]: {
+      padding: '3rem 2rem 2rem 2rem',
+    },
+  },
+  // whyweMain: {
+  //   marginTop: '3rem',
+  // },
+  whyweLeft: {
+    display: 'inline-flex',
+    alignItems: 'center',
+  },
+  whyweRight: {
+    display: 'inline-flex',
+    alignItems: 'center',
+  },
+  whyweTitle:{
+    fontFamily: themes.rubik,
+    color: themes.heading,
+    fontSize: '1rem',
+    textTransform: 'uppercase',
+    fontWeight: 600,
+    letterSpacing: '.2rem',
+  },
+  whywesubT:{
+    fontFamily: themes.source,
+    color: themes.error,
+    lineHeight: '2rem',
+    fontSize: '1.9rem',
+    fontWeight: 700,
+    paddingTop: '0px',
+    paddingBottom: '25px',
+    margin: '5px 0px',
+    [ theme.breakpoints.up("md") ]: {
+      paddingRight: '50%',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      paddingRight: '10%',
+    },
+    [ theme.breakpoints.down("md") ]: {
+      paddingRight: '5%',
+    },
+  },
+  whyweRMain: {
+    display: 'flex',
+    marginBottom: '15px',
+    '& h1': {
+      fontFamily: themes.mont,
+      color: themes.error,
+      fontSize: '1.4rem',
+      lineHeight: '1rem',
+      margin: '0px 0px',
+      fontWeight: 700,
+
+    },
+    '& p': {
+      fontSize: '1rem',
+      fontFamily: themes.mont,
+      color: themes.info,
+      fontWeight: 500,
+      [ theme.breakpoints.down("md") ]: {
+        paddingRight: '5%',
+      },
+      [ theme.breakpoints.only("md") ]: {
+        paddingRight: '5%',
+      },
+      [ theme.breakpoints.up("md") ]: {
+        paddingRight: '18%',
+      },
+
+    },
+  },
+  whyweRheading: {
+    marginLeft: '20px',
+  },
+  whyweRIcon1: {
+    fontSize: '1.7rem',
+    color: '#fff',
+    background: 'linear-gradient( #6254e7 , #9289f1 )',
+    borderRadius: '50%',
+    fontWeight: 700,
+    padding: '5px',
+  },
+ whyweRIcon2: {
+   fontSize: '1.7rem',
+   color: '#fff',
+   background: 'linear-gradient( #f56616, #f0ac0e )',
+   borderRadius: '50%',
+   fontWeight: 700,
+   padding: '5px',
+  },
+ whyweRIcon3: {
+   fontSize: '1.7rem',
+   color: '#fff',
+   background: 'linear-gradient( #34c478 , #88fdb9 )',
+   borderRadius: '50%',
+   fontWeight: 700,
+   padding: '5px',
+  },
+
+
+  
 }));
 export default useStyles;
 
