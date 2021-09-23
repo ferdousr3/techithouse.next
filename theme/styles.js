@@ -13,8 +13,6 @@ const useStyles = makeStyles((theme) => ({
     margin: '0px auto',
     width: '100%',
     background:'#FFFFFF',
-
-
   },
   footer: {
     textAlign: 'center',
@@ -166,7 +164,7 @@ const useStyles = makeStyles((theme) => ({
   },
   servicesRt: {
     fontFamily: themes.rubik,
-    color: themes.warning,
+    color: themes.heading,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,
@@ -236,7 +234,7 @@ const useStyles = makeStyles((theme) => ({
 
   aboutusRt: {
     fontFamily: themes.rubik,
-    color: themes.warning,
+    color: themes.heading,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,

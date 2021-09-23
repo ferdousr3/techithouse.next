@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
   contactbTitle: {
     fontFamily: themes.rubik,
-    color: themes.info,
+    color: themes.heading,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,
@@ -49,10 +49,15 @@ const useStyles = makeStyles((theme) => ({
       padding: '0% 7%',
     },
   },
+  // contact last part
   contactMain: {
     padding: '5rem 0rem 3.5rem 0rem',
-    backgroundColor: 'rgba(255,255,255,1)',
-    
+    backgroundColor: 'rgba(255,255,255,1)', 
+  },
+  contactpaddingdMain: {
+    [ theme.breakpoints.up("md") ]: {
+      padding: '0rem 2rem 0rem 2rem',
+    },
   },
   contactMainAling:{
     display: 'inline-flex',
@@ -62,7 +67,7 @@ const useStyles = makeStyles((theme) => ({
   contactDetailsTitle: {
     fontSize: '1rem',
     fontFamily: themes.rubik,
-    color: themes.warning,
+    color: themes.heading,
     fontWeight: 500,
     textTransform: 'uppercase',
   },

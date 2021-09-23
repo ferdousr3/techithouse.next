@@ -8,6 +8,7 @@ import allData from "../data/allData";
 import dev from "../public/about/dev.png";
 import design from "../public/about/design.png";
 import marketing from "../public/about/marketing.png";
+import { FaRegLightbulb, FaMedapps, FaSearchengin, FaMedal } from "react-icons/fa";
 
 
 
@@ -42,7 +43,7 @@ const agency = () => {
                   Trusted by organizations with 95%+ customer satisfaction
                 </p>
               </div>
-              <Grid container spacing={4} >
+              <Grid container spacing={4} className={classes.contactpaddingdMain} >
                 <Grid item xs={12} sm={6} md={6} lg={4} xl={4}>
                   <div className={classes.MainaboutDesign1}>
                     <div className="image">
@@ -105,23 +106,133 @@ const agency = () => {
         <Grid container className={classes.aboutusMiddle} >
           <Grid item xs={12}>
             <Container>
-              <Grid container >
+              <Grid container className={classes.aboutmidMain} >
                 {/* left */}
-              <Grid item xs={12} sm={12} md={12} lg={6} xl={6} >
-                <div className="div">
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} >
+                  <div className="div">
+                    <h1 className={classes.aboutmidLTitle} >
+                      about us
+                    </h1>
+                    <h2 className={classes.aboutmidLSubTitle}  >
+                      We Are Here For Digital Agency, Make Your Work Easy
+                    </h2>
+                    <p className={classes.aboutmidLDetails}  >
+                      Wе are working with web and graphics design, web development, digital marketing. We fосuѕ оn dеlivеring with professional services аnd building lоng-tеrm relationship with оur сliеntѕ.Our team holds themselvesaccountable for every client&apos;s project. We get to know every client we work with to create a custom design according to their requirement. <br /> <br />
+                      That is why we are different, and that&apos;s how we have gained success. Our services include: Website design and development. Apps. Search engine marketing (pay-per-click, retargeting). Search engine optimization. Social media marketing. Content creation. Online lead generation. Online brand development and management. Email marketing
+                    </p>
+                    <button className={classes.aboutMBtn} >
+                      <NextLink href="/" >
+                        our services
+                      </NextLink>
+                    </button>
+                  </div>
+                </Grid>
+                {/* Right */}
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6}   >
+                  <div className={classes.aboutmidRImage} >
+                    <Image
+                      src="/about/aboutnew.jpg"
+                      alt="about new"
 
-                </div>
+                      width={696}
+                      height={650}
+
+                    />
+                  </div>
+                </Grid>
               </Grid>
-               {/* Right */}
-              <Grid item xs={12} sm={12} md={12} lg={6} xl={6} >
-              <Image
-              src="/about/aboutnew.jpg"
-               alt="about new"
-               layout="responsive"
-               width={400}
-               height={400}
-              />
+            </Container>
+          </Grid>
+        </Grid>
+        {/* what we do */}
+        <Grid container className={classes.whatWeDo} >
+          <Grid item xs={12}>
+            <Container>
+              <div className="div">
+                <h1 className={classes.aboutUsTitle} >
+                  what we do
+                </h1>
+                <h2 className={classes.aboutUssubT} >
+                  Fresh Ideas for Every Business
+                </h2>
+              </div>
+              <Grid container spacing={3} className={classes.whatWeDoMain} >
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <div className="div">
+                    <Image
+                      src="/about/about_us.png"
+                      alt="about us"
+                      width={496}
+                      height={456}
+                    />
+                  </div>
+                </Grid>
+                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.whatidoLMain} >
+                  <div className="div">
+                    <div className={classes.whatidoLMain1}>
+                      <FaMedapps className={classes.whatidoLIcon1} />
+                      <div className={classes.whatidoLheading}>
+                        <h1  >
+                          Creative Approach
+                        </h1>
+                        <p >
+                          Ea pro tibique comprehensam, sed ea verear numquam molestie. Nam te omittam comprehensam.
+                        </p>
+                      </div>
+                    </div>
+                    <div className={classes.whatidoLMain2}>
+                      <FaMedal className={classes.whatidoLIcon2} />
+                      <div className={classes.whatidoLheading}>
+                        <h1  >
+                          Guaranteed Success
+                        </h1>
+                        <p >
+                          Ea pro tibique comprehensam, sed ea verear numquam molestie. Nam te omittam comprehensam.
+                        </p>
+                      </div>
+                    </div>
+                    <div className={classes.whatidoLMain3}>
+                      <FaSearchengin className={classes.whatidoLIcon3} />
+                      <div className={classes.whatidoLheading}>
+                        <h1>
+                          SEO Optimization
+                        </h1>
+                        <p >
+                          Ea pro tibique comprehensam, sed ea verear numquam molestie. Nam te omittam comprehensam.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </Grid>
               </Grid>
+            </Container>
+          </Grid>
+        </Grid>
+        {/* our vision mision and other */}
+        <Grid container className={classes.vission} >
+          <Grid item xs={12}>
+            <Container>
+              <Grid container spacing={2} className={classes.vissionMain} >
+                {allData.aboutvision.map(item => (
+                  <Grid key={item.id} item xs={12} sm={12} md={6} lg={6} xl={6}  >
+                    <div className={classes.vissionMainHeadin}>
+                      <div className="img">
+                        <Image
+                          src={item.icon} alt={item.title} width={150} height={150}
+                        />
+                      </div>
+                      <div className={classes.vissionMainDetails}>
+                        <h1>
+                          {item.title}
+                        </h1>
+                        <p>
+                          {item.details}
+                        </p>
+                      </div>
+                    </div>
+                  </Grid>
+                ))}
+
               </Grid>
             </Container>
           </Grid>

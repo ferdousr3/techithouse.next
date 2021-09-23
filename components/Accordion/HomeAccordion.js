@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
   },
   accordionTitle: {
     fontFamily: themes.rubik,
-    color: themes.info,
+    color: themes.heading,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,

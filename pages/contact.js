@@ -82,9 +82,9 @@ const contact = () => {
         <Grid container className={classes.contactMain} >
           <Grid item xs={12}>
             <Container>
-              <Grid container >
+              <Grid container className={classes.contactpaddingdMain}  >
                 {/* contact details */}
-                <Grid item xs={12} sm={12} md={12} lg={6} xl={6} className={classes.contactMainAling} >
+                <Grid item xs={12} sm={5} md={5} lg={6} xl={6} className={classes.contactMainAling} >
                   <div className="div">
                     <div  >
                       <h1 className={classes.contactDetailsTitle} >
@@ -112,7 +112,7 @@ const contact = () => {
                   </div>
                 </Grid>
                 {/* contact from */}
-                <Grid item xs={12} sm={12} md={12} lg={6} xl={6}
+                <Grid item xs={12} sm={7} md={7} lg={6} xl={6}
                   className={classes.contatFromMain}
                 >
                   <div className={classes.fromMain}>

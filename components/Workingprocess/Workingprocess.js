@@ -140,7 +140,7 @@ const useStyles = makeStyles((theme) => ({
   },
   workpt: {
     fontFamily: themes.rubik,
-    color: themes.info,
+    color: themes.heading,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,

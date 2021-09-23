@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
   teamTitle: {
     fontFamily: themes.rubik,
-    color: themes.info,
+    color: themes.heading,
     fontSize: '1rem',
     textTransform: 'uppercase',
     fontWeight: 600,
