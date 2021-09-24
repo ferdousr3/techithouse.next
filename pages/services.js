@@ -6,6 +6,10 @@ import useStyles from "../theme/services";
 
 
 const services = () => {
+
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const classes = useStyles();
+  
   return (
     <>
       <Layout
