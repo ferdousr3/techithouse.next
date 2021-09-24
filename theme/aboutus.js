@@ -389,8 +389,31 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
   },
   // vission & mission
+  missionVission:{
+    backgroundColor: '#FFFFFF',
+    [ theme.breakpoints.down("md") ]: {
+      padding: '2.5rem 1rem 2.5rem 1rem',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      padding: '2.5rem 1rem 2.5rem 1rem',
+    },
+    [ theme.breakpoints.up("md") ]: {
+      padding: '2.5rem 2rem 2.5rem 2rem',
+    },
+  },
+  missionVissionMain:{
+    [ theme.breakpoints.down("md") ]: {
+      padding: '0rem .5rem 0rem .5rem',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      padding: '0rem 1rem 0rem 1rem',
+    },
+    [ theme.breakpoints.up("md") ]: {
+      padding: '0rem 2rem 0rem 2rem',
+    },
+  },
   vission: {
-    backgroundColor: '#F9F8FE',
+    backgroundColor: '#FFFFFF',
     [ theme.breakpoints.down("md") ]: {
       padding: '2rem 0rem 3.5rem 0rem',
     },
@@ -404,40 +427,68 @@ const useStyles = makeStyles((theme) => ({
       padding: '3.5rem 4rem 2rem 4rem',
     },
   },
-  vissionMainHeadin: {
-    display: 'flex',
-    marginBottom: '15px',
-    '& img': {
-      // backgroundColor: '#ffffff',
-      // padding: '40px',
-      // borderRadius: '50%',
-      marginTop: '-5px !important',
+  missionVissionsubT:{
+    fontFamily: themes.source,
+    color: themes.error,
+    lineHeight: '2rem',
+    fontSize: '1.9rem',
+    fontWeight: 700,
+    paddingTop: '0px',
+    paddingBottom: '25px',
+    margin: '5px 0px',
+    [ theme.breakpoints.up("md") ]: {
+      paddingRight: '40%',
     },
-    '& h1': {
-      fontFamily: themes.mont,
-      color: themes.error,
-      fontSize: '1.8rem',
-      lineHeight: '2rem',
-      margin: '0px 0px',
-      fontWeight: 700,
+    [ theme.breakpoints.only("md") ]: {
+      paddingRight: '10%',
     },
-    '& p': {
-      fontSize: '1rem',
-      fontFamily: themes.rubik,
-      color: themes.info,
-      fontWeight: 400,
-      [ theme.breakpoints.down("md") ]: {
-        paddingRight: '5%',
-      },
-      [ theme.breakpoints.only("md") ]: {
-        paddingRight: '5%',
-      },
-      [ theme.breakpoints.up("md") ]: {
-        paddingRight: '15%',
-      },
-
+    [ theme.breakpoints.down("md") ]: {
+      paddingRight: '5%',
     },
   },
+  missionVisionRight:{
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'end'
+  },
+  // vissionMainHeadin: {
+  //   display: 'flex',
+  //   marginBottom: '15px',
+  //   '& svg': {
+  //     fontSize: '2.5rem',
+      
+  //     color: '#fff',
+  //     background: 'linear-gradient( #f56616, #f0ac0e )',
+  //     fontWeight: 500,
+  //     borderRadius: '50%',
+  //     padding: '10px',
+  //     margin: '3px',
+  //   },
+  //   '& h1': {
+  //     fontFamily: themes.mont,
+  //     color: themes.error,
+  //     fontSize: '1.8rem',
+  //     lineHeight: '2rem',
+  //     margin: '0px 0px',
+  //     fontWeight: 700,
+  //   },
+  //   '& p': {
+  //     fontSize: '1rem',
+  //     fontFamily: themes.rubik,
+  //     color: themes.info,
+  //     fontWeight: 400,
+  //     [ theme.breakpoints.down("md") ]: {
+  //       paddingRight: '5%',
+  //     },
+  //     [ theme.breakpoints.only("md") ]: {
+  //       paddingRight: '5%',
+  //     },
+  //     [ theme.breakpoints.up("md") ]: {
+  //       paddingRight: '15%',
+  //     },
+
+  //   },
+  // },
   vissionMainDetails: {
     marginLeft: '15px',
     // border: '1px solid #E5E8EC',

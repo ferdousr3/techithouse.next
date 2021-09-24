@@ -5,7 +5,7 @@ import Marketing from "/public/services/marketing.gif"
 import EcoIcon from '@material-ui/icons/Eco';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import AlbumIcon from "@material-ui/icons/Album";
-import { FaFacebookF , FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP} from "react-icons/fa";
+import { FaFacebookF, FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP, FaAngleDoubleUp, FaEnvira, FaUsers, FaDotCircle} from "react-icons/fa";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import labiba from "../public/team/labiba.jpg";
 import aminul from "../public/team/aminul.jpg";
@@ -15,11 +15,11 @@ import mihadul from "../public/team/mihadul.jpg";
 import  mukim from "../public/team/mukim.jpg";
 import rafid from "../public/team/rafid.jpg";
 import sabbir from "../public/team/sabbir.jpg";
-import vision from "../public/about/vision.gif";
-import values from "../public/about/values.gif";
-import mission from "../public/about/mission.gif";
-import goal from "../public/about/goal.gif";
-import goal1 from "../public/about/goal1.gif";
+// import vision from "../public/about/vision.gif";
+// import values from "../public/about/values.gif";
+// import mission from "../public/about/mission.gif";
+// import goal from "../public/about/goal.gif";
+// import goal1 from "../public/about/goal1.gif";
 
 
 
@@ -336,25 +336,25 @@ const allData = {
   aboutvision:[
     {
       id:1,
-      icon:vision ,
+      icon: FaEnvira,
       title: "Vision",
       details: "Our Vission Is To Provide Our Clients With The Utmost Satisfaction And Create A Better Online Experience For Many People.",
     },
     {
       id:2,
-      icon: mission ,
+      icon: FaUsers ,
       title: "Mission",
       details: "Our Mission Is To Reach The Goal Of Our Clients And Provide Services That Are Suitable For Their Needs.",
     },
     {
       id:3,
-      icon: values ,
+      icon: FaAngleDoubleUp ,
       title: "Values",
       details: "Take The Header Builder To A New Level With New Awesome Components: Socials, Contact, Breadcrumbs And Many.",
     },
     {
       id:4,
-      icon: goal1,
+      icon: FaDotCircle,
       title: "Goals",
       details: "Give A Huge Boost To Your Entire Blogging Experience With Features Specially Designed For Increased User Experience.",
     },
