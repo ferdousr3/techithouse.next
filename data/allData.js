@@ -5,7 +5,7 @@ import Marketing from "/public/services/marketing.gif"
 import EcoIcon from '@material-ui/icons/Eco';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import AlbumIcon from "@material-ui/icons/Album";
-import { FaFacebookF, FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP, FaAngleDoubleUp, FaEnvira, FaUsers, FaDotCircle} from "react-icons/fa";
+import { FaFacebookF, FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP, FaAngleDoubleUp, FaEnvira, FaUsers, FaDotCircle, FaBuffer, FaRegLifeRing, FaMedapps, FaShoppingBag, FaShieldAlt} from "react-icons/fa";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import labiba from "../public/team/labiba.jpg";
 import aminul from "../public/team/aminul.jpg";
@@ -356,6 +356,32 @@ const allData = {
       id:4,
       icon: FaDotCircle,
       title: "Goals",
+      details: "Give A Huge Boost To Your Entire Blogging Experience With Features Specially Designed For Increased User Experience.",
+    },
+  ],
+  corevalue:[
+    {
+      id:1,
+      icon: FaShieldAlt,
+      title: "Trust",
+      details: "Our Vission Is To Provide Our Clients With The Utmost Satisfaction And Create A Better Experience.",
+    },
+    {
+      id:2,
+      icon: FaBuffer ,
+      title: "Professionalism ",
+      details: "Our Mission Is To Reach The Goal Of Our Clients And Provide Services That Are Suitable For Their Needs.",
+    },
+    {
+      id:3,
+      icon: FaShoppingBag ,
+      title: "Affordable",
+      details: "Take The Header Builder To A New Level With New Awesome Components: Socials, Contact, Breadcrumbs And Many.",
+    },
+    {
+      id:4,
+      icon: FaMedapps,
+      title: "Vetted Experts",
       details: "Give A Huge Boost To Your Entire Blogging Experience With Features Specially Designed For Increased User Experience.",
     },
   ],

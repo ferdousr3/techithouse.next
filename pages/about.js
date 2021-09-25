@@ -8,7 +8,7 @@ import allData from "../data/allData";
 import dev from "../public/about/dev.png";
 import design from "../public/about/design.png";
 import marketing from "../public/about/marketing.png";
-import {FaMedapps, FaSearchengin, FaMedal } from "react-icons/fa";
+import { FaMedapps, FaSearchengin, FaMedal } from "react-icons/fa";
 import CheckIcon from '@material-ui/icons/Check';
 
 
@@ -241,7 +241,7 @@ const agency = () => {
           <Grid item xs={12}>
             <Container>
               <Grid container spacing={3} className={classes.missionVissionMain} >
-                
+
                 <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.whyweRight} >
                   <div className="div">
                     <div className="div">
