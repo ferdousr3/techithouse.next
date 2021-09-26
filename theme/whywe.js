@@ -29,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
       padding: '0rem 0rem 3.5rem 0rem',
     },
   },
+  
   whyWeLMain: {
     display: 'flex',
     justifyContent: 'start',
@@ -221,14 +222,33 @@ const useStyles = makeStyles((theme) => ({
   // core Value
   coreValueLMain:{
     background: 'rgba(255, 255, 255, 1)',
-    minHeight: '270px',
+    minHeight: '250px',
     boxShadow: '0px 15px 25px 0px rgb(0 0 0 / 4%)',
     borderRadius: '4px',
     margin: '0px 0px 0px 0px',
-    padding: '30px 30px',
-    '& svg':{
-      fontSize: '3rem',
-      color: 'rgba(10,192,171,1)',
+    padding: '30px 30px 20px 30px',
+    '&:hover':{
+      backgroundColor: '#030D28',
+      transition: 'all .6s',
+      "& h1": {
+        color: "#FFF",
+        transition: 'all .6s',
+      },
+      "& p": {
+        color: "#9FA5B7",
+        transition: 'all .6s',
+      },
+      " & $coreValuIcon": {
+        fontSize: '3rem',
+        color: '#9FA5B7',
+        marginTop: '10px',
+        marginBottom: '5px',
+      },
+      " & $coreValuIconLast": {
+        color: '#FFF',
+        visibility: 'visible',
+        // paddingBottom: '30px',
+      },
     },
     '& h1':{
       fontSize: '1.2rem',
@@ -241,7 +261,68 @@ const useStyles = makeStyles((theme) => ({
       color: themes.info,
       fontWeight:500,
     },
-
+  },
+  coreValuIcon: {
+    fontSize: '3rem',
+    color: 'rgba(10,192,171,1)',
+    marginTop: '10px',
+    marginBottom: '5px',
+  },
+  coreValuIconLast:{
+    visibility:' hidden',
+  },
+  // accordion
+  jounUsAccordion:{
+    [ theme.breakpoints.up("md") ]: {
+      padding: '3rem 0rem 4rem 0rem',
+    },
+    [ theme.breakpoints.down("md") ]: {
+      padding: '2rem 0rem 3.5rem 0rem',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      padding: '2rem 0rem 3.5rem 0rem',
+    },
+  },
+  // joinUs
+  joinUs: {
+    backgroundImage: 'linear-gradient(96deg, #050D29 0% ,#041134 51%, #050C28 100%)',
+    [ theme.breakpoints.up("md") ]: {
+      padding: '3rem 3.5rem 3rem 3.5rem',
+    },
+    [ theme.breakpoints.down("md") ]: {
+      padding: '2rem 0rem 3.5rem 2rem',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      padding: '2rem 0rem 3.5rem 2rem',
+    },
+    '& h1':{
+      color: '#FFFFFF',
+      fontSize: '2.5rem',
+    },
+  },
+  joinUsMBtn:{
+   background: 'transparent',
+    outline: 'none',
+    width: 'auto',
+    height: ' 50px',
+    cursor: 'pointer',
+    padding: '10px 40px',
+    lineHeight: '23px',
+    margin: '0 0 15px',
+    fontSize: '15px',
+    fontFamily: themes.mont,
+    fontWeight: 600,
+    textTransform: 'uppercase',
+    letterSpacing: '.2px',
+    border: '2px solid #FFFFFF',
+    color: '#fff',
+    marginTop: '10px',
+    '&:hover': {
+      backgroundColor: '#FFFFFF ',
+      transition: 'all .5s ease',
+      color: '#050C28 ',
+      border: '2px solid #FFFFFF',
+    },
   },
 }));
 export default useStyles;

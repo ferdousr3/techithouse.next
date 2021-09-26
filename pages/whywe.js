@@ -6,6 +6,9 @@ import PageTitle from "../components/PageTitle/PageTitle";
 import CheckIcon from '@material-ui/icons/Check';
 import NextLink from "next/link";
 import allData from "../data/allData";
+import { FaLongArrowAltRight} from "react-icons/fa";
+import TrendingFlatOutlinedIcon from '@material-ui/icons/TrendingFlatOutlined';
+import HomeAccordion from "../components/Accordion/HomeAccordion";
 
 
 
@@ -152,12 +155,12 @@ const whywe = () => {
           <Grid item xs={12}>
             <Container>
               <Grid container className={classes.whyWeStartMain} >
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.a}>
+                <Grid item xs={12} sm={12} md={7} lg={6} xl={6} className={classes.a}>
                   <Grid container spacing={4} >
                     {allData.corevalue.map(item => (
                       <Grid key={item.id} item xs={12} sm={6} md={6} lg={6} xl={6}>
                         <div className={classes.coreValueLMain}>
-                          <item.icon />
+                          <item.icon className={classes.coreValuIcon} />
                           <div className="div">
                             <h1>
                               {item.title}
@@ -165,13 +168,16 @@ const whywe = () => {
                             <p>
                               {item.details}
                             </p>
+                            {/* <div>
+                              <TrendingFlatOutlinedIcon className={classes.coreValuIconLast} />
+                            </div> */}
                           </div>
                         </div>
                       </Grid>
                     ))}
                   </Grid>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={classes.whyWeMRMain} >
+                <Grid item xs={12} sm={12} md={5} lg={6} xl={6} className={classes.whyWeMRMain} >
                   <div className={classes.whyweR}>
                     <h1>
                       Our Core Values
@@ -189,6 +195,37 @@ const whywe = () => {
                         </NextLink>
                       </button>
                     </div>
+                  </div>
+                </Grid>
+              </Grid>
+            </Container>
+          </Grid>
+        </Grid>
+        {/* accordion */}
+        <Grid container className={classes.jounUsAccordion} >
+          <Grid item xs={12}>
+            <Container>
+              <HomeAccordion />
+            </Container>
+          </Grid>
+        </Grid>
+        {/* joun us */}
+        <Grid container className={classes.joinUs} >
+          <Grid item xs={12}>
+            <Container>
+              <Grid container className={classes.whyWeStartMain} >
+                <Grid item xs={12} sm={12} md={8} lg={8} xl={8} className={classes.a}>
+                  <h1>
+                    Are you looking for top experts and technology?
+                  </h1>
+                </Grid>
+                <Grid item xs={12} sm={12} md={4} lg={4} xl={4} className={classes.whyWeMRMain} >
+                  <div className="div">
+                    <button className={classes.joinUsMBtn} >
+                      <NextLink href="/contact" >
+                        Join US
+                      </NextLink>
+                    </button>
                   </div>
                 </Grid>
               </Grid>

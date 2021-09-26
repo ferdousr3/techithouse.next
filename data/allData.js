@@ -5,7 +5,7 @@ import Marketing from "/public/services/marketing.gif"
 import EcoIcon from '@material-ui/icons/Eco';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import AlbumIcon from "@material-ui/icons/Album";
-import { FaFacebookF, FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP, FaAngleDoubleUp, FaEnvira, FaUsers, FaDotCircle, FaBuffer, FaRegLifeRing, FaMedapps, FaShoppingBag, FaShieldAlt} from "react-icons/fa";
+import { FaFacebookF, FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP, FaAngleDoubleUp, FaEnvira, FaUsers, FaDotCircle, FaBuffer, FaRegLifeRing, FaMedapps, FaMoneyCheckAlt, FaShieldAlt} from "react-icons/fa";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import labiba from "../public/team/labiba.jpg";
 import aminul from "../public/team/aminul.jpg";
@@ -374,7 +374,7 @@ const allData = {
     },
     {
       id:3,
-      icon: FaShoppingBag ,
+      icon: FaMoneyCheckAlt ,
       title: "Affordable",
       details: "Take The Header Builder To A New Level With New Awesome Components: Socials, Contact, Breadcrumbs And Many.",
     },
