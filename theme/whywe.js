@@ -298,6 +298,10 @@ const useStyles = makeStyles((theme) => ({
     '& h1':{
       color: '#FFFFFF',
       fontSize: '2.5rem',
+      paddingRight: '24%',
+      [ theme.breakpoints.down("md") ]: {
+        fontSize: '1.8rem',
+      },
     },
   },
   joinUsMBtn:{
@@ -307,7 +311,6 @@ const useStyles = makeStyles((theme) => ({
     height: ' 50px',
     cursor: 'pointer',
     padding: '10px 40px',
-    lineHeight: '23px',
     margin: '0 0 15px',
     fontSize: '15px',
     fontFamily: themes.mont,

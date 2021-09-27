@@ -15,6 +15,9 @@ import mihadul from "../public/team/mihadul.jpg";
 import  mukim from "../public/team/mukim.jpg";
 import rafid from "../public/team/rafid.jpg";
 import sabbir from "../public/team/sabbir.jpg";
+import web1 from "../public/services/1.png";
+import web2 from "../public/services/2.png";
+import web3 from "../public/services/3.png";
 // import vision from "../public/about/vision.gif";
 // import values from "../public/about/values.gif";
 // import mission from "../public/about/mission.gif";
@@ -384,6 +387,27 @@ const allData = {
       title: "Vetted Experts",
       details: "Give A Huge Boost To Your Entire Blogging Experience With Features Specially Designed For Increased User Experience.",
     },
+  ],
+  servicespage: [
+    {
+      id: 1,
+      image: web1,
+      title: "Web, UI/UX design & Development",
+      details: "Our Vision To Be The Only Customer-Priority, Quality-Driven Web Design Firm .",
+    },
+    {
+      id: 2,
+      image: web2,
+      title: " App deploy And Cloud Computing",
+      details: "Web Development We Work With The Newest Tech Stacks To Engineer Back-End .",
+    },
+    {
+      id: 3,
+      image: web3,
+      title: "Digital Marketing & B2B Lead sales",
+      details: " Unique Email Templates With Mobile Responsive Tested Multiple Devices & Eamil platform.",
+    },
+   
   ],
 };
 export default allData;
