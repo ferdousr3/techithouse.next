@@ -210,6 +210,31 @@ const home = () => {
             </Container>
           </Grid>
         </Grid>
+        {/* Join with us */}
+        <Grid container className={classes.joinWithUs} >
+          <Grid item xs={12}>
+            <Container>
+              <Grid container spacing={2}  >
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12} className={classes.joinWithUsCenter} >
+                  <div className={classes.joinWithUsMain}>
+                    <h1>
+                      MORE WITH US
+                    </h1>
+                    <p>
+                      You Want to Showcase Your Website <br />
+                      in Top Join With Us
+                    </p>
+                    <button className={classes.joinWithUsBtn} >
+                      <NextLink href="/whywe" >
+                        get in touch
+                      </NextLink>
+                    </button>
+                  </div>
+                </Grid>
+              </Grid>
+            </Container>
+          </Grid>
+        </Grid>
         {/* our team */}
         <Grid container className={classes.team} >
           <Grid item xs={12}>

@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     minHeight: '80vh',
     margin: '0px auto',
     width: '100%',
-    background:'#FFFFFF',
+    background: '#FFFFFF',
   },
   footer: {
     textAlign: 'center',
@@ -289,17 +289,74 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   // Workingprocess
-  Workingprocess:{
+  Workingprocess: {
     background: '#fafafa',
     padding: '1.5rem 0rem 1.5rem 0rem',
   },
+  // join with us
+  joinWithUs: {
+    backgroundImage: 'url("/home/home.jpg")',
+    backgroundPosition: 'center center',
+    backgroundRrepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  },
+  joinWithUsCenter:{
+    display: 'flex',
+    justifyContent: 'center',
+    justifyItems: 'center',
+  },
+  joinWithUsMain: {
+    padding: '6rem 0rem',
+    textAlign: 'center',
+    '& h1': {
+      textAlign: 'center,',
+      fontSize: '14px',
+      fontWeight: 600,
+      textTransform: 'uppercase',
+      color: themes.heading,
+      margin: '0px 0px',
+    },
+    '& p': {
+      fontSize: '30px',
+      lineHeight: '1.3em',
+      fontWeight: 700,
+      color: '#3b3663',
+      margin: '0px 0px',
+      padding: '10px 0px',
+    },
+  },
+  joinWithUsBtn:{
+    background: 'transparent',
+    backgroundImage: 'linear-gradient(90deg,  #f0ac0e 20%, #f0ac0e 0% , #ff7426 115%)',
+    outline: 'none',
+    width: 'auto',
+    height: ' 50px',
+    cursor: 'pointer',
+    padding: '10px 30px',
+    lineHeight: '23px',
+    margin: '0 0 15px',
+    fontSize: '12px',
+    fontFamily: themes.rubik,
+    fontWeight: 500,
+    textTransform: 'uppercase',
+    letterSpacing: '.2px',
+    border: 'none',
+    color: '#fff',
+    borderRadius: '5px',
+    marginTop: '10px',
+    '&:hover':{
+      // background: 'transparent',
+      color: '#FFF',
+      backgroundImage: 'linear-gradient(85deg, #f56616 10%, #f56616 0%, #f0ac0e 100 %)',
+    },
+  },
   // team
-  team:{
+  team: {
     background: '#f8f8f8',
     padding: '2.5rem 0rem 1.5rem 0rem',
   },
   // homeAccordion
-  homeAccordion:{
+  homeAccordion: {
     background: '#FFFFFF',
     padding: '2.5rem 0rem 4rem 0rem',
   },
