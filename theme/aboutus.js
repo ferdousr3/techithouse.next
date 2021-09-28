@@ -260,7 +260,7 @@ const useStyles = makeStyles((theme) => ({
       padding: '2rem 0rem 2rem 0rem',
     },
     [ theme.breakpoints.up("md") ]: {
-                              padding: '2rem 2rem 2rem 2rem',
+      padding: '2rem 2rem 2rem 2rem',
     },
   },
   whatWeDoMain: {
@@ -389,7 +389,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
   },
   // vission & mission
-  missionVission:{
+  missionVission: {
     backgroundColor: '#FFFFFF',
     [ theme.breakpoints.down("md") ]: {
       padding: '2.5rem 1rem 2.5rem 1rem',
@@ -401,7 +401,7 @@ const useStyles = makeStyles((theme) => ({
       padding: '2.5rem 2rem 2.5rem 2rem',
     },
   },
-  missionVissionMain:{
+  missionVissionMain: {
     [ theme.breakpoints.down("md") ]: {
       padding: '0rem .5rem 0rem .5rem',
     },
@@ -427,7 +427,7 @@ const useStyles = makeStyles((theme) => ({
       padding: '3.5rem 4rem 2rem 4rem',
     },
   },
-  missionVissionsubT:{
+  missionVissionsubT: {
     fontFamily: themes.source,
     color: themes.error,
     lineHeight: '2rem',
@@ -446,7 +446,7 @@ const useStyles = makeStyles((theme) => ({
       paddingRight: '5%',
     },
   },
-  missionVisionRight:{
+  missionVisionRight: {
     display: 'inline-flex',
     alignItems: 'center',
     justifyContent: 'end'
@@ -456,7 +456,7 @@ const useStyles = makeStyles((theme) => ({
   //   marginBottom: '15px',
   //   '& svg': {
   //     fontSize: '2.5rem',
-      
+
   //     color: '#fff',
   //     background: 'linear-gradient( #f56616, #f0ac0e )',
   //     fontWeight: 500,
@@ -519,7 +519,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'inline-flex',
     alignItems: 'center',
   },
-  whyweTitle:{
+  whyweTitle: {
     fontFamily: themes.rubik,
     color: themes.heading,
     fontSize: '1rem',
@@ -527,7 +527,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
     letterSpacing: '.2rem',
   },
-  whywesubT:{
+  whywesubT: {
     fontFamily: themes.source,
     color: themes.error,
     lineHeight: '2rem',
@@ -586,25 +586,73 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
     padding: '5px',
   },
- whyweRIcon2: {
-   fontSize: '1.7rem',
-   color: '#fff',
-   background: 'linear-gradient( #f56616, #f0ac0e )',
-   borderRadius: '50%',
-   fontWeight: 700,
-   padding: '5px',
+  whyweRIcon2: {
+    fontSize: '1.7rem',
+    color: '#fff',
+    background: 'linear-gradient( #f56616, #f0ac0e )',
+    borderRadius: '50%',
+    fontWeight: 700,
+    padding: '5px',
   },
- whyweRIcon3: {
-   fontSize: '1.7rem',
-   color: '#fff',
-   background: 'linear-gradient( #34c478 , #88fdb9 )',
-   borderRadius: '50%',
-   fontWeight: 700,
-   padding: '5px',
+  whyweRIcon3: {
+    fontSize: '1.7rem',
+    color: '#fff',
+    background: 'linear-gradient( #34c478 , #88fdb9 )',
+    borderRadius: '50%',
+    fontWeight: 700,
+    padding: '5px',
+  },
+  // getin tous
+  joinUs: {
+    backgroundImage: 'linear-gradient(96deg, #050D29 0% ,#041134 51%, #050C28 100%)',
+    [ theme.breakpoints.up("md") ]: {
+      padding: '3rem 3.5rem 3rem 3.5rem',
+    },
+    [ theme.breakpoints.down("md") ]: {
+      padding: '2rem 0rem 3.5rem 2rem',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      padding: '2rem 0rem 3.5rem 2rem',
+    },
+    '& h1': {
+      color: '#FFFFFF',
+      fontSize: '2.5rem',
+      paddingRight: '24%',
+      [ theme.breakpoints.down("md") ]: {
+        fontSize: '1.8rem',
+      },
+    },
+  },
+  joinUsMBtn: {
+    background: 'transparent',
+    outline: 'none',
+    width: 'auto',
+    height: ' 50px',
+    cursor: 'pointer',
+    padding: '10px 40px',
+    margin: '0 0 15px',
+    fontSize: '15px',
+    fontFamily: themes.mont,
+    fontWeight: 600,
+    textTransform: 'uppercase',
+    letterSpacing: '.2px',
+    border: '2px solid #FFFFFF',
+    color: '#fff',
+    marginTop: '10px',
+    '&:hover': {
+      backgroundColor: '#FFFFFF ',
+      transition: 'all .5s ease',
+      color: '#050C28 ',
+      border: '2px solid #FFFFFF',
+    },
+  },
+  whyWeMRMain: {
+    display: 'flex',
+    justifyContent: 'end',
+    alignItems: 'center',
   },
 
 
-  
 }));
 export default useStyles;
 

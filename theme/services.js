@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
       //   width: '230px',
       //   height: '230px',
       // },
-      
+
     },
     '& h1': {
       fontSize: '1.3rem',
@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: 500,
     },
   },
- 
+
   servicesMainImg: {
     width: '230px',
     height: '230px',
@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
     right: '50%',
     transform: 'translateX(50%)',
     // border: '1px solid red',
-    
+
   },
   servicesMainImage: {
     height: '230px',
@@ -97,7 +97,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: themes.rubik,
 
   },
-// web design
+  // web design
   webDSection: {
     backgroundColor: '#FFFFFF',
     [ theme.breakpoints.up("md") ]: {
@@ -128,6 +128,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: 'uppercase',
     fontWeight: 600,
     letterSpacing: '.2rem',
+    
   },
   webDRSubTitle: {
     fontFamily: themes.source,
@@ -164,8 +165,8 @@ const useStyles = makeStyles((theme) => ({
       paddingRight: '3%',
     }
   },
-  webDRMainCenter:{
-   display: 'flex !Important',
+  webDRMainCenter: {
+    display: 'flex !Important',
     // justifyContent: 'center',
     justifyItems: 'center',
     // border: '1px solid red',
@@ -181,7 +182,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: themes.rubik,
     color: themes.info,
     fontWeight: 400,
-    '& span':{
+    '& span': {
       color: '#6254e7',
       paddingRight: '4px',
     },
@@ -213,7 +214,211 @@ const useStyles = makeStyles((theme) => ({
       color: '#fff',
     },
   },
-  
+  webDevFetureMain: {
+    marginTop: '30px',
+    marginBottom: '10px',
+    // border: '1px solid red',
+    '& h5':{
+      fontFamily: themes.rubik,
+      color: web2,
+      fontSize:'1.2rem',
+      fontWeight: '600',
+      lineHeight: '1rem',
+      margin: '0px 0px',
+    },
+    '& p':{
+      fontFamily: themes.rubik,
+      color: themes.warning,
+      fontSize: '.9rem',
+      fontWeight: '400',
+      paddingRight: '20px',
+    },
+  },
+  webDevIcon: {
+    fontSize: '2.5rem',
+    color: web2,
+    marginBottom: '5px',
+  },
+  deployCSection:{
+    backgroundColor: '#F8F8F8',
+    [ theme.breakpoints.up("md") ]: {
+      padding: '4rem 5rem 3rem 5rem',
+    },
+    [ theme.breakpoints.only("md") ]: {
+      padding: '4rem 2rem 3rem 2rem',
+    },
+    [ theme.breakpoints.down("md") ]: {
+      padding: '4rem 1.5rem 3rem 1.5rem',
+    },
+  },
+  deployCSectionHeading:{
+    paddingBottom: '20px',
+    textAlign: 'center',
+    '& h1':{
+      fontFamily: themes.rubik,
+      color: themes.heading,
+      fontSize: '1rem',
+      textTransform: 'uppercase',
+      fontWeight: 600,
+      letterSpacing: '.2rem',
+      
+    },
+    '& h2':{
+      fontFamily: themes.source,
+      color: themes.error,
+      lineHeight: '2.5rem',
+      fontSize: '2.2rem',
+      fontWeight: 700,
+      paddingTop: '5px',
+      paddingBottom: '5px',
+      margin: '10px 0px',
+      [ theme.breakpoints.up("md") ]: {
+        padding: '0% 25%',
+      },
+      [ theme.breakpoints.only("md") ]: {
+        padding: '0% 10%',
+      },
+      [ theme.breakpoints.down("md") ]: {
+        padding: '0% 7%',
+      },
+    },
+    '& p':{
+      fontSize: '1.1rem',
+      fontFamily: themes.rubik,
+      color: themes.info,
+      fontWeight: 400,
+      [ theme.breakpoints.up("md") ]: {
+        padding: '0% 20%',
+      },
+      [ theme.breakpoints.only("md") ]: {
+        padding: '0% 8%',
+      },
+      [ theme.breakpoints.down("md") ]: {
+        padding: '0% 5%',
+      },
+    },
+  },
+  deployMainPart:{
+    display: 'flex',
+    '&:hover':{
+      '& svg': {
+        color: web2,
+      },
+      '& span': {
+        color: web2,
+      },
+      '& h1': {
+        color: web2,
+      },
+    },
+    '& svg':{
+      fontSize: '4rem',
+      color: web1,
+      marginRight: '15px',
+    },
+    '& span':{
+      color: web1,
+      fontSize: '1.3rem',
+      fontWeight: 700,
+      
+    },
+    '& h1':{
+      fontFamily: themes.mont,
+      color: web1,
+      fontSize: '1.4rem',
+      fontWeight: 700,
+      margin: '0px 0px',
+    },
+    '& p':{
+      fontSize: '1.1rem',
+      fontFamily: themes.rubik,
+      color: themes.info,
+      fontWeight: 400,
+      [ theme.breakpoints.up("md") ]: {
+        paddingRight: ' 20%',
+      },
+      [ theme.breakpoints.only("md") ]: {
+        paddingRight: ' 8%',
+      },
+      [ theme.breakpoints.down("md") ]: {
+        paddingRight: ' 5%',
+      },
+    },
+  },
+  digitalMIcon:{
+    fontSize: '2.5rem',
+    color: web4,
+    marginBottom: '5px',
+  },
+  digitalMFetureMain: {
+    marginTop: '30px',
+    marginBottom: '10px',
+    // border: '1px solid red',
+    '& h5': {
+      fontFamily: themes.rubik,
+      color: web4,
+      fontSize: '1.2rem',
+      fontWeight: '600',
+      lineHeight: '1rem',
+      margin: '0px 0px',
+    },
+    '& p': {
+      fontFamily: themes.rubik,
+      color: themes.warning,
+      fontSize: '.9rem',
+      fontWeight: '400',
+      paddingRight: '20px',
+    },
+  },
+  // getin tous
+  joinUs: {
+  backgroundImage: 'linear-gradient(96deg, #050D29 0% ,#041134 51%, #050C28 100%)',
+  [ theme.breakpoints.up("md") ]: {
+    padding: '3rem 3.5rem 3rem 3.5rem',
+  },
+  [ theme.breakpoints.down("md") ]: {
+    padding: '2rem 0rem 3.5rem 2rem',
+  },
+  [ theme.breakpoints.only("md") ]: {
+    padding: '2rem 0rem 3.5rem 2rem',
+  },
+  '& h1': {
+    color: '#FFFFFF',
+    fontSize: '2.5rem',
+    paddingRight: '24%',
+    [ theme.breakpoints.down("md") ]: {
+      fontSize: '1.8rem',
+    },
+  },
+},
+  joinUsMBtn: {
+  background: 'transparent',
+  outline: 'none',
+  width: 'auto',
+  height: ' 50px',
+  cursor: 'pointer',
+  padding: '10px 40px',
+  margin: '0 0 15px',
+  fontSize: '15px',
+  fontFamily: themes.mont,
+  fontWeight: 600,
+  textTransform: 'uppercase',
+  letterSpacing: '.2px',
+  border: '2px solid #FFFFFF',
+  color: '#fff',
+  marginTop: '10px',
+  '&:hover': {
+    backgroundColor: '#FFFFFF ',
+    transition: 'all .5s ease',
+    color: '#050C28 ',
+    border: '2px solid #FFFFFF',
+  },
+},
+  whyWeMRMain: {
+    display: 'flex',
+    justifyContent: 'end',
+    alignItems: 'center',
+  },
 }));
 export default useStyles;
 

@@ -1,18 +1,18 @@
-import Glob from "/public/services/glob.gif"
-import Code from "/public/services/code.gif"
-import Tool from "/public/services/tool.gif"
-import Marketing from "/public/services/marketing.gif"
+import Glob from "/public/services/glob.gif";
+import Code from "/public/services/code.gif";
+import Tool from "/public/services/tool.gif";
+import Marketing from "/public/services/marketing.gif";
 import EcoIcon from '@material-ui/icons/Eco';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import AlbumIcon from "@material-ui/icons/Album";
-import { FaFacebookF, FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP, FaAngleDoubleUp, FaEnvira, FaUsers, FaDotCircle, FaBuffer, FaRegLifeRing, FaMedapps, FaMoneyCheckAlt, FaShieldAlt} from "react-icons/fa";
+import { FaFacebookF, FaFacebook, FaTwitter, FaLinkedinIn, FaPinterestP, FaAngleDoubleUp, FaEnvira, FaUsers, FaDotCircle, FaBuffer, FaRegLifeRing, FaMedapps, FaMoneyCheckAlt, FaShieldAlt, FaCloudUploadAlt, FaCodepen, FaLinux, FaCog} from "react-icons/fa";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import labiba from "../public/team/labiba.jpg";
 import aminul from "../public/team/aminul.jpg";
 import amit from "../public/team/amit.jpg";
 import ferdous from "../public/team/ferdous.jpg";
 import mihadul from "../public/team/mihadul.jpg";
-import  mukim from "../public/team/mukim.jpg";
+import mukim from "../public/team/mukim.jpg";
 import rafid from "../public/team/rafid.jpg";
 import sabbir from "../public/team/sabbir.jpg";
 import web1 from "../public/services/1.png";
@@ -29,7 +29,7 @@ import web3 from "../public/services/3.png";
 
 const allData = {
   heroSubTitle: "Grow Your Businesses With Our Creative Graphic Design, Interactive Websites, And Gather Customers That Connect To Your Brand With Our Leading-Edge Digital Marketing Services.",
-  services:[
+  services: [
     {
       id: 1,
       image: Glob,
@@ -62,30 +62,30 @@ const allData = {
   aboutusRst: "Affordable. Customer Friendly. Results-Oriented",
   aboutusRpt: "Tech IT house is a one-stop digital Service agency located in Bangladesh. Wе hаvе up to date еxреriеnсе in uѕеr web and graphics design, web development, digital marketing. We fосuѕ оn dеlivеring with professional services аnd building lоng-tеrm relationship with оur сliеntѕ.Our team holds themselves accountable for every client's project.",
 
-  socials:[
+  socials: [
     {
-      id:1,
-      name:"Facebook",
+      id: 1,
+      name: "Facebook",
       icon: FaFacebook,
-      link:"https://www.facebook.com/",
+      link: "https://www.facebook.com/",
     },
     {
-      id:2,
-      name:"Twitter",
+      id: 2,
+      name: "Twitter",
       icon: FaTwitter,
-      link:"https://www.facebook.com/",
+      link: "https://www.facebook.com/",
     },
     {
-      id:3,
-      name:"Linkedin",
+      id: 3,
+      name: "Linkedin",
       icon: FaLinkedinIn,
-      link:"https://www.facebook.com/",
+      link: "https://www.facebook.com/",
     },
     {
-      id:4,
-      name:"Pinterest",
+      id: 4,
+      name: "Pinterest",
       icon: FaPinterestP,
-      link:"https://www.facebook.com/",
+      link: "https://www.facebook.com/",
     },
   ],
   abouts: [
@@ -143,7 +143,7 @@ const allData = {
       h1: "How Much Will A Website Cost Me?",
       h2: "The Cost Of A Website Varies Depends On Its Complexity. We Are Happy To Discuss Your Requirements And Provide A Quote At Any Time",
     },
-   
+
   ],
   aboutaccordions: [
     {
@@ -172,8 +172,8 @@ const allData = {
       h2: "Yes We Have C# Developer Who Makes Simple Retail Management System, Sales Management, Quick Sell, Factory Management Services Application For You.",
     },
   ],
-  teamTitle:"Our Best",
-  teamStitle:"Dedicated Team",
+  teamTitle: "Our Best",
+  teamStitle: "Dedicated Team",
   teamDetails: "We are a digitalized, full-service creative agency. We combine Web Development-design, Digital marketing, and Graphics design to help you stay ahead of your competition and grow your business.",
   teams: [
     {
@@ -186,7 +186,7 @@ const allData = {
       fulldetails:
         "Hello there, I'm Labiba Tahsin, an expert of illustrations with 2+ long periods of involvement. I'm skilled at Adobe Photoshop and Adobe Illustrator. I'm working as a Graphics Designer & Content writer here. Since I have gotten 100+ customers for my unique content and stunning designs or illustrations, You would be the lucky person for working with me. Thanks.",
       experiance: "Photoshop, Illustrator, Website Content, Etc",
-     
+
 
       links: [
         { link: "https://www.google.com", icon: <FaFacebookF /> },
@@ -204,7 +204,7 @@ const allData = {
       fulldetails:
         "Hi! This is Mihadul, a web programmer of ASP.NET CORE MVC. With three years of working experience in this field now, I can make any website you need for your business, institution, personal portfolio, and so on. I was a c# developer, So, I can also create windows applications for your business; besides, I have worked with WordPress, HTML, CSS, BOOTSTRAP, and Javascript. Please take a look at my portfolio for further details. Thanks.",
       experiance: "c# proggramming, HTML, CSS, Cloud platform.",
-     
+
 
 
       links: [
@@ -223,7 +223,7 @@ const allData = {
       fulldetails:
         "Good tidings! This is Ferdous, an expert Web Designer and Developer. I have learned HTML5, CSS3, Bootstrap, Javascript, WordPress, and PHP. With over three years of experience with site creation and improvement, I ensure any web work fulfillment and offer limitless updates. I'm an Experienced Web Designer and Developer who can oversee such an undertaking satisfactorily. If you need to get some answers concerning my work and are charmed to work with me, it's not all that much difficulty; feel free to deal with me..",
       experiance: "HTML, CSS, Bootstrap, JavaScript, ReactJs",
-      
+
 
       links: [
         { link: "https://www.google.com", icon: <FaFacebookF /> },
@@ -258,7 +258,7 @@ const allData = {
       fulldetails:
         "Greetings! I am Amit Hasan Evan, a Professional SEO Expert & Digital Marketer. By one year of market experience and working with Keyword Research, OnPage & Offpage SEO, Guest Posting, Content Marketing, E-Commerce Marketing, Video Marketing, YouTube Marketing, and Social Media Marketing and more than 350 customer satisfaction, I place your website on the first place of search engines. If you want to know more about me and my work and interested in working with me, please contact with me.",
       experiance: "SEO, Marketing",
-     
+
 
 
       links: [
@@ -336,53 +336,53 @@ const allData = {
       ],
     },
   ],
-  aboutvision:[
+  aboutvision: [
     {
-      id:1,
+      id: 1,
       icon: FaEnvira,
       title: "Vision",
       details: "Our Vission Is To Provide Our Clients With The Utmost Satisfaction And Create A Better Online Experience For Many People.",
     },
     {
-      id:2,
-      icon: FaUsers ,
+      id: 2,
+      icon: FaUsers,
       title: "Mission",
       details: "Our Mission Is To Reach The Goal Of Our Clients And Provide Services That Are Suitable For Their Needs.",
     },
     {
-      id:3,
-      icon: FaAngleDoubleUp ,
+      id: 3,
+      icon: FaAngleDoubleUp,
       title: "Values",
       details: "Take The Header Builder To A New Level With New Awesome Components: Socials, Contact, Breadcrumbs And Many.",
     },
     {
-      id:4,
+      id: 4,
       icon: FaDotCircle,
       title: "Goals",
       details: "Give A Huge Boost To Your Entire Blogging Experience With Features Specially Designed For Increased User Experience.",
     },
   ],
-  corevalue:[
+  corevalue: [
     {
-      id:1,
+      id: 1,
       icon: FaShieldAlt,
       title: "Trust",
       details: "Our Vission Is To Provide Our Clients With The Utmost Satisfaction And Create A Better Experience.",
     },
     {
-      id:2,
-      icon: FaBuffer ,
+      id: 2,
+      icon: FaBuffer,
       title: "Professionalism ",
       details: "Our Mission Is To Reach The Goal Of Our Clients And Provide Services That Are Suitable For Their Needs.",
     },
     {
-      id:3,
-      icon: FaMoneyCheckAlt ,
+      id: 3,
+      icon: FaMoneyCheckAlt,
       title: "Affordable",
       details: "Take The Header Builder To A New Level With New Awesome Components: Socials, Contact, Breadcrumbs And Many.",
     },
     {
-      id:4,
+      id: 4,
       icon: FaMedapps,
       title: "Vetted Experts",
       details: "Give A Huge Boost To Your Entire Blogging Experience With Features Specially Designed For Increased User Experience.",
@@ -407,7 +407,32 @@ const allData = {
       title: "Digital Marketing & B2B Lead sales",
       details: " Unique Email Templates With Mobile Responsive Tested Multiple Devices & Eamil platform.",
     },
-   
+  ],
+  deploy: [
+    {
+      id: 1,
+      icon: FaCloudUploadAlt ,
+      title: "Cloud Computing",
+      details: "aZure Aws Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, dolores!"
+    },
+    {
+      id: 2,
+      icon: FaCodepen ,
+      title: "Deployment",
+      details: "Netlify, heroku, Vercel Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, dolores!"
+    },
+    {
+      id: 3,
+      icon: FaLinux ,
+      title: "Linux Server",
+      details: "Linux server, vps, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, dolores!"
+    },
+    {
+      id: 4,
+      icon: FaCog ,
+      title: "C Panel",
+      details: "Linux server, vps, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, dolores!"
+    },
   ],
 };
 export default allData;

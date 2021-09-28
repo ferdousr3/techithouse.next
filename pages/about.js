@@ -376,14 +376,29 @@ const agency = () => {
             </Container>
           </Grid>
         </Grid>
-        {/* about us last part */}
-        {/* <Grid container className={classes.homeAccordion} >
+        {/* joun us */}
+        <Grid container className={classes.joinUs} >
           <Grid item xs={12}>
             <Container>
-              gggg
+              <Grid container className={classes.whyWeStartMain} >
+                <Grid item xs={12} sm={12} md={8} lg={8} xl={8} className={classes.a}>
+                  <h1>
+                    Our TechItHouse Team Allways for your help!
+                  </h1>
+                </Grid>
+                <Grid item xs={12} sm={12} md={4} lg={4} xl={4} className={classes.whyWeMRMain} >
+                  <div className="div">
+                    <button className={classes.joinUsMBtn} >
+                      <NextLink href="/contact" >
+                        Contact US
+                      </NextLink>
+                    </button>
+                  </div>
+                </Grid>
+              </Grid>
             </Container>
           </Grid>
-        </Grid> */}
+        </Grid>
       </Layout>
     </>
   );
